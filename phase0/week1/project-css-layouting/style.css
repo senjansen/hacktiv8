@@ -1,0 +1,40 @@
+/* Style Default */
+body {
+    font-family: "Slabo 27px", serif;
+}
+
+section{
+    background-image: url("img/sample-pattern.png");
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+li {
+    display: inline-block;
+    float: right;
+}
+
+footer {
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+article {
+    background-color: white;
+    display: block;
+    width: 800px;
+    height: 150px;
+    padding: 5px 5px 5px 5px;;
+}
+
+#logo {
+    
+}
