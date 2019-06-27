@@ -15,7 +15,8 @@ h1 {
 
 li {
     display: inline-block;
-    float: right;
+    width: 100px;
+    height: 50px;
 }
 
 footer {
@@ -35,6 +36,19 @@ article {
     padding: 5px 5px 5px 5px;;
 }
 
-#logo {
-    
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 7%    
+}
+
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
 }

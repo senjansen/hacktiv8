@@ -2,6 +2,15 @@
 	"folders": [
 		{
 			"path": "week1/andreassosilo.github.io"
+		},
+		{
+			"path": "week1/project-css-layouting"
+		},
+		{
+			"path": "week1/project-mybook"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project-mybook"
+	}
 }
