@@ -8,9 +8,15 @@
 		},
 		{
 			"path": "week1/project-mybook"
+		},
+		{
+			"path": "week1/yummy.github.io"
+		},
+		{
+			"path": "week1/hovericon"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "project-mybook"
+		"liveServer.settings.multiRootWorkspaceName": "andreassosilo.github.io"
 	}
 }
