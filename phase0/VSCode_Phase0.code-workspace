@@ -14,9 +14,12 @@
 		},
 		{
 			"path": "week1/hovericon"
+		},
+		{
+			"path": "week2"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "andreassosilo.github.io"
+		"liveServer.settings.multiRootWorkspaceName": "week2"
 	}
 }
