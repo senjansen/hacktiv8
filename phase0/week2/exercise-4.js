@@ -25,8 +25,7 @@ switch (bulan) {
         break;
 
     case 5:
-        bulan = "Mei";
-        //console.log(hari + " Mei " + tahun);
+        console.log(hari + " Mei " + tahun);
         break;
 
     case 6:
@@ -60,5 +59,3 @@ switch (bulan) {
     default:
         console.log("Bulan yang dimasukkan salah!");
 }
-
-console.log(hari + " " + bulan + " " + tahun);
