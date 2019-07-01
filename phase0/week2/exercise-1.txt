@@ -15,7 +15,55 @@ Pseudocode
 ==========
 SET 'mass' to 600
 SET 'acceleration' to 2
-CALCULATE 
+CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
+STORE the calculation in variable 'force'
+DISPLAY 'force' value
+
+// No.2 : Leap Year (Tahun Kabisat)
+
+Algorithm
+=========
+1. Set 'year' as a variable with a value.
+2. Store value of 'acceleration in variable.
+3. Calculate the equation using Newton Second Law (F=m*a)
+4. Store the calculation value in variable 'force'
+5. Display the 'force' value. 
+
+Pseudocode
+==========
+SET 'year' to 20
+SET 'acceleration' to 2
+CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
+STORE the calculation in variable 'force'
+DISPLAY 'force' value
+
+// No.3 : Laundry Day
+
+Algorithm
+=========
+1. Set 'year' as a variable with a value.
+2. Store value of 'acceleration in variable.
+3. Calculate the equation using Newton Second Law (F=m*a)
+4. Store the calculation value in variable 'force'
+5. Display the 'force' value. 
+
+Pseudocode
+==========
+SET 'year' to 20
+
+// No.4 : Check Nails
+
+Algorithm
+=========
+1. Set 'year' as a variable with a value.
+2. Store value of 'acceleration in variable.
+3. Calculate the equation using Newton Second Law (F=m*a)
+4. Store the calculation value in variable 'force'
+5. Display the 'force' value. 
+
+Pseudocode
+==========
+SET 'year' to 20
 
 
 READ and SAVE "first number
@@ -35,6 +83,7 @@ IF-THEN-ELSE
 REPEAT-UNTIL
 CASE
 ADD
+
 
 STORE "remainder" to the result of calculation
 
