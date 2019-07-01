@@ -1,0 +1,41 @@
+// Exercise 1 - Pseudocode Challenge
+// Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
+
+// No.1 : Newton Second Law
+
+Algorithm
+=========
+1. Store value of 'mass' in variable.
+2. Store value of 'acceleration in variable.
+3. Calculate the equation using Newton Second Law (F=m*a)
+4. Store the calculation value in variable 'force'
+5. Display the 'force' value. 
+
+Pseudocode
+==========
+SET 'mass' to 600
+SET 'acceleration' to 2
+CALCULATE 
+
+
+READ and SAVE "first number
+COMPUTE
+SAVE
+SHOW
+CALCULATE
+DISPLAY
+SET
+
+IF
+    DO
+DISPLAY
+
+WHILE
+IF-THEN-ELSE
+REPEAT-UNTIL
+CASE
+ADD
+
+STORE "remainder" to the result of calculation
+
+FOR
