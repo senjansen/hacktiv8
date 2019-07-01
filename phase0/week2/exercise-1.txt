@@ -73,18 +73,13 @@ SHOW
 CALCULATE
 DISPLAY
 SET
-
 IF
-    DO
+DO
 DISPLAY
-
 WHILE
 IF-THEN-ELSE
 REPEAT-UNTIL
 CASE
 ADD
-
-
 STORE "remainder" to the result of calculation
-
 FOR
