@@ -21,7 +21,7 @@ console.log(hasilPerkalian); // Menampilkan angka 30
 
 // No.3 : Function processSentence
 function processSentence(name, age, address, hobby) {
-    let sentence = 'Nama saya ' + name + ', umur saya ' + age + ', alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!';
+    let sentence = 'Nama saya ' + name + ', umur saya ' + age + ' tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!';
     return sentence;
 } 
 
