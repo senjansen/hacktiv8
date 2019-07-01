@@ -19,7 +19,9 @@ function xo(str) {
     if (xCounter === oCounter) {
         return true;
     }
-    else return false;
+    else {
+        return false;
+    }
 }
 
 // TEST CASES
