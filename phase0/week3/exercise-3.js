@@ -1,7 +1,7 @@
 // Exercise 3 - Looping Data Array
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to reverse value in array
+// Create function to display data of multidimensional array
 function dataHandling(input) {
     for (let counterRow = 0; counterRow < input.length; counterRow++) {
         console.log(`Nomor ID: ${input[counterRow][0]}`);
