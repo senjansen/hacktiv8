@@ -6,6 +6,7 @@ function xo(str) {
     let strLength = str.length;
     let xCounter = 0;
     let oCounter = 0;
+    
     for (let counter = 0; counter < strLength; counter++) {
         if (str[counter] == 'x') {
             xCounter += 1;
