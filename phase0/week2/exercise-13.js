@@ -1,7 +1,7 @@
 // Exercise 13 - Logic Challenges X & O
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Counting 
+// Compare X counter and O counter
 function xo(str) {
     let strLength = str.length;
     let xCounter = 0;
