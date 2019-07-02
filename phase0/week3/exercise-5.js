@@ -4,7 +4,11 @@
 
 // Create function to return true or false based on palindrom
 function palindrome (kata) {
-  // you can only write your code here!
+  // reverse the input using several array built-in functions
+  let reverseString = kata.split('').reverse().join('');
+  console.log(kata);
+  console.log(reverseString);
+  return reverseString === kata;
 }
 
 // TEST CASES
