@@ -2,20 +2,21 @@
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to reverse value in array
-function balikString(kata) {
-    let arrayLength = kata.length;
-    let reverseWord = '';
+function balikString(arrayInput) {
+    let arrayLength = arrayInput.length;
+    let reverseWord = "";
 
-    for (let counter = 1; counter <= wordLength; counter++) {
-        reverseWord += kata[wordLength-counter];
+    for (let counter = 1; counter <= arrayLength; counter++) {
+        reverseWord += arrayInput[arrayLength-counter];
     }
     return reverseWord;
 }
 
-// Declare variable array
-let words =  
+// Declare variable
+let arrayInput = "hello world!";
 
-console.log(balikString('hello world!'));
+// Print reverse string
+console.log(balikString(arrayInput));
 
 //input "hello world!"
 //output "!dlrow olleh"
