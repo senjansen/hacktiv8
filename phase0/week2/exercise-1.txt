@@ -19,6 +19,7 @@ SET 'acceleration' to 2
 CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
 STORE the calculation in variable 'force'
 DISPLAY 'force' value
+
 ================================================================
 // No.2 : Leap Year (Tahun Kabisat)
 
@@ -90,6 +91,7 @@ WHILE 'counter' is not equal to 'numberOfStudents'
     ENDIF
     INCREMENT 'counter' by 1
 ENDWHILE
+
 ================================================================
 
 Additional Notes:
