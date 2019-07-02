@@ -1,71 +1,99 @@
 // Exercise 1 - Pseudocode Challenge
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
+================================================================
 // No.1 : Newton Second Law
 
-Algorithm
-=========
+Algorithm:
+----------
 1. Store value of 'mass' in variable.
 2. Store value of 'acceleration in variable.
 3. Calculate the equation using Newton Second Law (F=m*a)
 4. Store the calculation value in variable 'force'
 5. Display the 'force' value. 
 
-Pseudocode
-==========
+Pseudocode:
+-----------
 SET 'mass' to 600
 SET 'acceleration' to 2
 CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
 STORE the calculation in variable 'force'
 DISPLAY 'force' value
-
+================================================================
 // No.2 : Leap Year (Tahun Kabisat)
 
-Algorithm
-=========
+Algorithm:
+----------
 1. Set 'year' as a variable with a value.
-2. Store value of 'acceleration in variable.
-3. Calculate the equation using Newton Second Law (F=m*a)
-4. Store the calculation value in variable 'force'
-5. Display the 'force' value. 
+2. Enter the year into leap year function.
+3. Check if 'year' is a leap year
+4. If 'year' modulus 4 is zero and 'year' modulus 100 is not zero, 'year' is 'leap year'
+5. If 'year' modulus 4 / 100 / 400 is zero, 'year' is 'leap year' 
 
-Pseudocode
-==========
-SET 'year' to 20
-SET 'acceleration' to 2
-CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
-STORE the calculation in variable 'force'
-DISPLAY 'force' value
+Pseudocode:
+-----------
+SET 'year' with a value 
+IF 'year' modulus 4 is zero and 'year' modulus 100 is not zero THEN
+    SHOW 'year is leap year'
+ELSEIF 'year' modulus 4 is zero and 'year' modulus 100 is zero and 'year' modulus 400 is zero THEN
+    SHOW 'year is leap year'
+ELSE
+    SHOW 'year is not a leap year'
+ENDIF
 
+================================================================
 // No.3 : Laundry Day
 
-Algorithm
-=========
-1. Set 'year' as a variable with a value.
-2. Store value of 'acceleration in variable.
-3. Calculate the equation using Newton Second Law (F=m*a)
-4. Store the calculation value in variable 'force'
-5. Display the 'force' value. 
+Algorithm:
+----------
+1. Set 'basket' as a variable with initial value of 20.
+2. Set 'clothes' as a variable with initial value of 0.
+3. Set 'washMachine' as a variable with initial value of false.
+4. Add clothes to washMachine and reduce the value in the basket
+5. If clothes is already 20 and basket is 0, set washMachine as on (true)
+6. Else washMachine is off (false)
 
-Pseudocode
-==========
-SET 'year' to 20
+Pseudocode:
+-----------
+SET 'basket' as a variable with initial value of 20
+SET 'clothes' as a variable with initial value of 0
+SET 'washMachine' as a variable with initial value of false
+WHILE 'basket' is not zero
+    INCREMENT 'clothes' by 1
+    DECREMENT 'basket' by 1
+    IF 'clothes' equal to 20 and 'basket' equal to 0 THEN
+        SET 'washMachine' as true
+    ELSE 
+        SET 'washMachine as false
+    ENDIF
+ENDWHILE
 
+================================================================
 // No.4 : Check Nails
 
-Algorithm
-=========
-1. Set 'year' as a variable with a value.
-2. Store value of 'acceleration in variable.
-3. Calculate the equation using Newton Second Law (F=m*a)
-4. Store the calculation value in variable 'force'
-5. Display the 'force' value. 
+Algorithm:
+----------
+1. Set 'numberOfStudents' as a variable with a value of 40.
+2. Run loops of inspection until counter reach the same value as numberOfStudents
+2. If during inspection, teacher finds student with 'long nails', then display 'punish the student'
+3. If during inspection, teacher finds student with 'short nails', then display 'praise the student'
 
-Pseudocode
-==========
-SET 'year' to 20
+Pseudocode:
+-----------
+SET 'numberOfStudents' to 40
+SET 'counter' to 0
+WHILE 'counter' is not equal to 'numberOfStudents'
+    IF 'student' has 'long nails' THEN
+        DISPLAY 'punish the student'
+    ELSEIF 'student' has 'short nails' THEN
+        DISPLAY 'praise the student'
+    ENDIF
+    INCREMENT 'counter' by 1
+ENDWHILE
+================================================================
 
-
+Additional Notes:
+=================
 READ and SAVE "first number
 COMPUTE
 SAVE
