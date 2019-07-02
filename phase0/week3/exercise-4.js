@@ -4,6 +4,8 @@
 // Create function to display data of multidimensional array
 function dataHandling2(input) {
     let tanggal;
+    let tanggalSort;
+    let tanggalJoin;
     // Using splice() method
     input.splice(1, 1, 'Roman Alamsyah Elsharawy');
     input.splice(2, 1, 'Provinsi Bandar Lampung');
@@ -12,7 +14,6 @@ function dataHandling2(input) {
 
     // Using split() method
     tanggal = input[3].split('/');
-    console.log(tanggal);
 
     // switch-case
     switch(tanggal[1]) {
@@ -69,13 +70,17 @@ function dataHandling2(input) {
             break;
     }
 
-    // sorting tanggal
-    console.log(tanggal.sort());
-    arr.sort();
-}
+    // Using sort() method --> sorting tanggal
+    tanggalJoin = tanggal.join('-');
+    tanggalSort = tanggal.sort(function(value1, value2){return value2-value1});
+    console.log(tanggalSort);
 
-function(value1, value2) { 
-    return value1 > value2 
+    // Using join() method
+    console.log(tanggalJoin);
+
+    // Using slice() method
+    console.log(input[1].slice(0,15));
+
 }
 
 var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
