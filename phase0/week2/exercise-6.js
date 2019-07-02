@@ -40,7 +40,7 @@ for (let count = 1; count <= 100; count++) {
 }
 
 for (let count = 1; count <= 100; count += 2) {
-    //console.log(count + ' ');
+    console.log(count + ' ');
     if (count%3 == 0) {
         console.log(count + ' KELIPATAN 3');
     }
