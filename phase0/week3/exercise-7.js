@@ -3,7 +3,8 @@
 
 // Create function to count number of words
 function hitungJumlahKata (kalimat) {
-  // you can only write your code here!
+  let countWords = kalimat.split(' ');
+  return countWords.length
 }
 
 // TEST CASES
