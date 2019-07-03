@@ -3,22 +3,23 @@
 
 // Create function to check the arithmetic series of an array number
 function tentukanDeretAritmatika (arr) {
-  let arrLength = arr.length
-  let difference = 0
-  let newDifference = 0
+  let series = 0
+  let checker = false
 
-  for (let i = 0; i < arrLength - 1; i++) {
-    if (i === 0) {
-      difference = arr[i + 1] - arr[i]
+  series = arr[1] - arr[0]
+
+  for (let counter = 1; counter < arr.length - 1; counter++) {
+    if (arr[counter + 1] - arr[counter] === series) {
+      checker = true
     } else {
-      newDifference = arr[i + 1] - arr[i]
-      if (newDifference === difference) {
-        return true
-      } else {
-        return false
-      }
+      checker = false
     }
+    // console.log('array [counter+1] : ' + arr[counter + 1])
+    // console.log('array [counter] : ' + (arr[counter]))
+    // console.log('Counter ' + counter + ': = ' + checker)
   }
+
+  return checker
 }
 
 // TEST CASES
