@@ -3,7 +3,19 @@
 
 // Create function to group numbers in a multidimensional array
 function mengelompokkanAngka (arr) {
-  // you can only write your code here!
+  let arrLength = arr.length
+  let groupingArray = [[], [], []]
+
+  for (let counter = 0; counter < arrLength; counter++) {
+    if (arr[counter] % 3 === 0) {
+      groupingArray[2].push(arr[counter])
+    } else if (arr[counter] % 2 === 0) {
+      groupingArray[0].push(arr[counter])
+    } else {
+      groupingArray[1].push(arr[counter])
+    }
+  }
+  return groupingArray
 }
 
 // TEST CASES
