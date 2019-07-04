@@ -14,7 +14,7 @@ function groupAnimals (animals) {
     let name = element.toUpperCase() // to ignore upper and lower case
     let id = name.charAt(0)
     if (!(tempArray[id] && tempArray[id].length)) {
-      tempArray[id] = []
+      tempArray[id] = [] // create new array group if not yet created
     }
     tempArray[id].push(element)
   })
