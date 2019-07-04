@@ -10,6 +10,20 @@ function targetTerdekat (arr) {
   let counterDistance = 0;
   let highestCounterDistance = 0;
 
+  if (arr[0] === 'x') {
+    xFlag = 1;
+    oFlag = 0;
+    counterDistance = 0;
+  } else if (arr[0] === 'o') {
+    oFlag = 1;
+    xFlag = 0;
+    counterDistance = 0;
+  } else {
+    xFlag = 0;
+    oFlag = 0;
+    counterDistance = 0;
+  }
+
   for (let counter = 0; counter < arrLength; counter++) {
     if (arr[counter] === 'x') {
       xFlag = 1;
@@ -23,9 +37,7 @@ function targetTerdekat (arr) {
       counterDistance++
     }
   }
-  if (x === 1) {
 
-  }
   return counterDistance;
 }
 
