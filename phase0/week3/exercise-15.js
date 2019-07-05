@@ -3,8 +3,8 @@
 
 // Create function to group numbers in a multidimensional array
 function groupAnimals (animals) {
-  let groupingArray = []
-  let tempArray = []
+  let groupingAnimals = []
+  let tempAnimals = []
 
   // Use sort() method to sort the animals array first
   animals = animals.sort()
@@ -13,17 +13,17 @@ function groupAnimals (animals) {
   animals.forEach(function (element) {
     let name = element.toUpperCase() // to ignore upper and lower case
     let id = name.charAt(0)
-    if (!(tempArray[id] && tempArray[id].length)) {
-      tempArray[id] = [] // create new array group if not yet created
+    if (!(tempAnimals[id] && tempAnimals[id].length)) {
+      tempAnimals[id] = [] // create new array group if not yet created
     }
-    tempArray[id].push(element)
+    tempAnimals[id].push(element)
   })
 
   // Using for-in statement to push the grouped animals to new array
-  for (let counter in tempArray) {
-    groupingArray.push(tempArray[counter])
+  for (let counter in tempAnimals) {
+    groupingAnimals.push(tempAnimals[counter])
   }
-  return groupingArray
+  return groupingAnimals
 }
 
 // TEST CASES
