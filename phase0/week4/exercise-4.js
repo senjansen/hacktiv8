@@ -1,4 +1,4 @@
-// Exercise 3 - Looking for Median
+// Exercise 4 - Looking for Median
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to check the median from an array
