@@ -1,5 +1,5 @@
 {
-  "name": "week3",
+  "name": "Phase 0 - Week 4",
   "version": "1.0.0",
   "description": "",
   "main": ".eslintrc.js",
@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Andreas Sosilo",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.0.1"
+  }
 }

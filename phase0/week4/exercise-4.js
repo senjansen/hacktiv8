@@ -1,9 +1,14 @@
-// Exercise 4 - Looking for Median
+// Exercise 4 - Looking for Modus
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to check the median from an array
+// Create function to return the modus from an array number
 function cariModus (arr) {
-  // you can only write your code here!
+  let arrLength = arr.length
+  let modusValue = []
+
+  if (arrLength === 0) {
+    return null
+  }
 }
 
 // TEST CASES
