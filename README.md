@@ -1,4 +1,4 @@
-# Andreas' Hacktiv8 Journey - Batch 34 - Humble Fox
+# Hacktiv8 Journey - Batch 34 - Humble Fox
 Hacktiv8 Full Stack JavaScript Immersive Course
 
 This is a repository for my activity in Hacktiv8 Full Stack JavaScript Immersive Course in 2019.
@@ -7,3 +7,9 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 
 
 ## [Phase 0](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [Phase 2](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [Phase 3](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+
+# About Me
+My name is Andreas Sosilo. I am a software engineer with interest in web development and IoT.
