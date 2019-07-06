@@ -1,4 +1,4 @@
-# Hacktiv8 Journey - Batch 34 - Humble Fox
+# Andreas' Hacktiv8 Journey - Batch 34 - Humble Fox
 Hacktiv8 Full Stack JavaScript Immersive Course
 
 This is a repository for my activity in Hacktiv8 Full Stack JavaScript Immersive Course in 2019.
