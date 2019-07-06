@@ -9,4 +9,4 @@ It includes the all the files and projects from phase 0 to phase 3 during the co
 :floppy_disk: Coding
 :file_cabinet: Projects
 
-[##Phase 0](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+[## Phase 0](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
