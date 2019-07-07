@@ -6,8 +6,8 @@ Full-Stack JavaScript Development Course di HACKTIV8. Repositori ini digunakan s
 Materi di bagi ke dalam enam minggu, yang tiap minggu nya terdiri dari berbagai fokus materi. Kebanyakan dari
 materi dan tantangan yang tertera pada repositori ini hanya dapat di akses oleh murid yang sedang aktif di dalam phase 0 batch program.
 
-### [Week 1: Membuat Website Pertama Saya](./README-WEEK-1.md)
-### [Week 2: Mengenal JavaScript](./README-WEEK-2.md)
+### [Week 1: Membuat Website Pertama Saya](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week1/README.md)
+### [Week 2: Mengenal JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/README.md)
 ### [Week 3: Mendalami JavaScript](./README-WEEK-3.md)
 ### [Week 4: Bermain Logic di JavaScript](./README-WEEK-4.md)
 ### [Week 5: Bermain Logic di JavaScript](./README-WEEK-5.md)
