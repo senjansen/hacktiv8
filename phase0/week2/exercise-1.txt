@@ -6,10 +6,10 @@
 
 Algorithm:
 ----------
-1. Store value of 'mass' in variable.
-2. Store value of 'acceleration in variable.
+1. Store value of 'mass' in 'variable'.
+2. Store value of 'acceleration in 'variable'.
 3. Calculate the equation using Newton Second Law (F=m*a)
-4. Store the calculation value in variable 'force'
+4. Store the calculation value in 'variable' 'force'
 5. Display the 'force' value. 
 
 Pseudocode:
@@ -17,7 +17,7 @@ Pseudocode:
 SET 'mass' to 600
 SET 'acceleration' to 2
 CALCULATE 'force' as multiplication of 'mass' and 'acceleration'
-STORE the calculation in variable 'force'
+STORE the calculation in 'variable' 'force'
 DISPLAY 'force' value
 
 ================================================================
@@ -25,7 +25,7 @@ DISPLAY 'force' value
 
 Algorithm:
 ----------
-1. Set 'year' as a variable with a value.
+1. Set 'year' as a 'variable' with a value.
 2. Enter the year into leap year function.
 3. Check if 'year' is a leap year
 4. If 'year' modulus 4 is zero and 'year' modulus 100 is not zero, 'year' is 'leap year'
@@ -47,18 +47,18 @@ ENDIF
 
 Algorithm:
 ----------
-1. Set 'basket' as a variable with initial value of 20.
-2. Set 'clothes' as a variable with initial value of 0.
-3. Set 'washMachine' as a variable with initial value of false.
+1. Set 'basket' as a 'variable' with initial value of 20.
+2. Set 'clothes' as a 'variable' with initial value of 0.
+3. Set 'washMachine' as a 'variable' with initial value of false.
 4. Add clothes to washMachine and reduce the value in the basket
 5. If clothes is already 20 and basket is 0, set washMachine as on (true)
 6. Else washMachine is off (false)
 
 Pseudocode:
 -----------
-SET 'basket' as a variable with initial value of 20
-SET 'clothes' as a variable with initial value of 0
-SET 'washMachine' as a variable with initial value of false
+SET 'basket' as a 'variable' with initial value of 20
+SET 'clothes' as a 'variable' with initial value of 0
+SET 'washMachine' as a 'variable' with initial value of false
 WHILE 'basket' is not zero
     INCREMENT 'clothes' by 1
     DECREMENT 'basket' by 1
@@ -74,7 +74,7 @@ ENDWHILE
 
 Algorithm:
 ----------
-1. Set 'numberOfStudents' as a variable with a value of 40.
+1. Set 'numberOfStudents' as a 'variable' with a value of 40.
 2. Run loops of inspection until counter reach the same value as numberOfStudents
 2. If during inspection, teacher finds student with 'long nails', then display 'punish the student'
 3. If during inspection, teacher finds student with 'short nails', then display 'praise the student'
