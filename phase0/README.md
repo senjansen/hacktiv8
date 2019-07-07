@@ -1,114 +1,14 @@
-# Hacktiv8 Journey - Phase0
+# HACKTIV8 Phase 0 Activities
 
-Week1
-Day1
-anchor Mengenalkan dirimu kepada rekan-rekan lainnya di Slack group
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 1
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 2
-anchor Membuat Halaman HTML Sederhana
-Day2
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 3
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 4
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 5
-anchor Menghias HTML dengan CSS
-Day3
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 6
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 7
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 8
-anchor Menyelesaikan Codecademy Course - HTML CSS Syllabus 9
-Day4
-anchor Membuat Layout dan Desain Halaman Web dengan CSS
-anchor Mempelajari Markdown dan Membuat README.md
-anchor Membuat Branch Baru pada Repositori
-Day5
-anchor WEEKLY PROJECT - Website yang dihosting dengan Github Pages
-Week2
-Day1
-anchor Mengenal penggunaan Variable dalam JavaScript
-anchor Mengenal penggunaan Conditional (If-Else) dalam JavaScript
-anchor Mengenal penggunaan Iteration (For) dalam JavaScript
-rocket Mampu menggabungkan konsep Conditional dan Iteration dalam kasus sederhana
-Day2
-anchor Membuat algoritma sederhana dalam pseudocode
-anchor Mengenal Penggunaan Functions
-Tugas 1
-Tugas 2
-Tugas 3
-anchor Menyelesaikan Codecademy JavaScript Course Unit 1
-anchor Menyelesaikan Codecademy JavaScript Course Unit 2
-anchor Mengubah Pseudocode menjadi kode JavaScript
-Tugas 1
-Tugas 2
-Tugas 3
-rocket Mengubah Pseudocode menjadi kode JavaScript (Hard)
-Tugas 1
-Tugas 2
-Tugas 3
-anchor Melakukan Perulangan Menggunakan While
-rocket Menggabungkan Konsep Perulangan dan Kondisional
-Day3
-anchor Mengakses Nilai dalam Array
-anchor Melooping menggunakan Array
-anchor Array Join, Split, Slice, Splice, Sort
-Day4
-anchor Tantangan Menggunakan Object 1
-anchor Tantangan Menggunakan Object 2
-anchor Tantangan Menggunakan JSON
-Day5
-anchor WEEKLY PROJECT - Simple JavaScript Games
-Week3
-Day1
-anchor Tantangan Looping: Jumlah Perkalian Bilangan
-anchor Tantangan Rekursif: Jumlah Perkalian Bilangan
-Day2
-anchor Check Nums
-anchor First Reverse
-anchor Time Convert
-anchor Ex Oh
-Day3
-anchor Vowel Count
-anchor Other Products
-anchor Palindrome
-anchor Word Count
-Day4
-anchor Powers of Two
-anchor Largest Pair
-anchor Power Set Count
-anchor Arith Geo
-anchor Live Coding
-Part1
-Part2
-Part3
-Week4
-Day1
-anchor Longest Word
-anchor Simple Symbols
-Day2
-anchor Product Digits
-anchor Alphabet Soup
-anchor Swap Case
-rocket AB Check
-Day3
-anchor Dash Insert
-anchor Letter Capitalize
-rocket Letter Changes
-rocket Letter Count 1
-Day4
-anchor Division
-anchor Prime Time
-anchor Simple Mode
-anchor Live Coding
-Part1
-Part2
-Part3
-Week5
-anchor Day1 Seleksi dan Manipulasi DOM Sederhana
-anchor Day2 Penjelajahan dan Manipulasi DOM Sederhana
-anchor Day3 Memahami DOM Events
-anchor Day4 Menyusun Layout HTML dengan JavaScript
-anchor WEEKLY PROJECT - Simple JavaScript Games
-Week6
-anchor Live Coding
-anchor Day3 Mengubah Sintaks ES5 ke ES6
-anchor Day4 Menyusun Class ES6
-anchor Day5 Menggunakan Map, Filter, dan Reduce di JavaScript untuk menyelesaikan kasus sederhana
+Phase 0 adalah aktivitas yang mempersiapkan murid untuk mampu memahami dan masuk ke dalam Phase 1 Program
+Full-Stack JavaScript Development Course di HACKTIV8. Repositori ini digunakan sebagai acuan untuk pembelajaran dan bersifat wajib untuk dipelajari dan dikerjakan untuk berkesempatan melanjutkan ke dalam Phase 1.
+
+Materi di bagi ke dalam enam minggu, yang tiap minggu nya terdiri dari berbagai fokus materi. Kebanyakan dari
+materi dan tantangan yang tertera pada repositori ini hanya dapat di akses oleh murid yang sedang aktif di dalam phase 0 batch program.
+
+### [Week 1: Membuat Website Pertama Saya](./README-WEEK-1.md)
+### [Week 2: Mengenal JavaScript](./README-WEEK-2.md)
+### [Week 3: Mendalami JavaScript](./README-WEEK-3.md)
+### [Week 4: Bermain Logic di JavaScript](./README-WEEK-4.md)
+### [Week 5: Bermain Logic di JavaScript](./README-WEEK-5.md)
+### [Week 6: Menguasai JavaScript ES6 dan Paradigma Programming](./README-WEEK-6.md)
