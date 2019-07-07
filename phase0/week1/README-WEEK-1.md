@@ -1,14 +1,10 @@
 # Hacktiv8 Phase 0 Week 1: Membuat Website Pertama Saya
 
-![Header](assets/header-w1.jpg)
-
 Selamat datang di tahap persiapan sesungguhnya bootcamp Hacktiv8, yaitu Phase 0! Phase 0 ini merupakan pembelajaran yang bersifat matrikulasi atau kalibrasi yang lebih intens. Phase 0 juga menjadi penentu apakah kamu dapat maju ke Phase 1. Kita harap bersama agar kamu antusias untuk meningkatkan pengetahuan dasarmu!
 
 **Bagaimana Phase 0 ini akan berjalan?**
 
 Dalam tahap ini, tiap pekan bisa diselesaikan dalam waktu paling cepat 20-30 jam. Pun kalau kamu sudah bisa berbagai skill yang sudah tertera, bisa saja juga ada beberapa hal esensial dan tambahan yang belum kamu tahu. Tiap akhir pekan, kamu harus mengisi form laporan kegiatan yang link-nya disertakan di bawah.
-
-![Let's start!](assets/start.png)
 
 **Oke, siap untuk memulai Phase 0 kita di Hacktiv8?**
 
