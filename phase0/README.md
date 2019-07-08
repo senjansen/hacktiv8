@@ -8,7 +8,7 @@ materi dan tantangan yang tertera pada repositori ini hanya dapat di akses oleh 
 
 ### [Week 1: Membuat Website Pertama Saya](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week1/README.md)
 ### [Week 2: Mengenal JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/README.md)
-### [Week 3: Mendalami JavaScript](./README-WEEK-3.md)
-### [Week 4: Bermain Logic di JavaScript](./README-WEEK-4.md)
-### [Week 5: Bermain Logic di JavaScript](./README-WEEK-5.md)
-### [Week 6: Menguasai JavaScript ES6 dan Paradigma Programming](./README-WEEK-6.md)
+### [Week 3: Mendalami JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/README.md)
+### [Week 4: Bermain Logic di JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/README.md)
+### [Week 5: Bermain Logic di JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/README.md)
+### [Week 6: Menguasai JavaScript ES6 dan Paradigma Programming](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week6/README.md)
