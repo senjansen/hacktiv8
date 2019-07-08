@@ -1,6 +1,6 @@
 # Hacktiv8 Journey - Batch 34 - Humble Fox
 Hacktiv8 Full Stack JavaScript Immersive Course 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/hacktiv8icon.png "Hacktiv8 Logo")
 
 This is a repository for my activity in Hacktiv8 Full Stack JavaScript Immersive Course in 2019.
 
