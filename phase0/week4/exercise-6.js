@@ -1,9 +1,11 @@
 // Exercise 6 - Minimum Digit of Multiplication
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to return the minimin digit of multiplication from a number
+// Create function to return the minimum digit of multiplication from a number
 function digitPerkalianMinimum (angka) {
+  let temp = 0
 
+    
 }
 
 // TEST CASES
