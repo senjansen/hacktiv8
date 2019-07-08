@@ -4,9 +4,30 @@
 // Create function to return the modus from an array number
 function cariModus (arr) {
   let arrLength = arr.length
-  let modusValue = []
+  let obj = {}
+  let highestFreq = 0
+  let highest = ''
 
-  for
+  for (let counter = 0; counter < arrLength; counter++) {
+    if (obj[arr[counter]] === undefined) {
+      obj[arr[counter]] = 1
+    } else {
+      obj[arr[counter]] += 1
+    }
+  }
+
+  for (let key in obj) {
+    if (obj[key] > highestFreq) {
+      highestFreq = obj[key]
+      highest = key
+    }
+  }
+
+  if (highestFreq === arrLength || Object.keys(obj).length === arrLength) {
+    return -1
+  } else {
+    return Number(highest)
+  }
 }
 
 // TEST CASES
