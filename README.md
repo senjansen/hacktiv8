@@ -1,4 +1,4 @@
-# Hacktiv8 Journey - Batch 34 - Humble Fox ![alt text](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/hacktiv8icon.png "Hacktiv8 Logo")
+# ![alt text](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/hacktiv8icon.png "Hacktiv8 Logo") Hacktiv8 Journey - Batch 34 - Humble Fox 
 
 Hacktiv8 Full Stack JavaScript Immersive Course 
 
