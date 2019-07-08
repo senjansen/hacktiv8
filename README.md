@@ -16,8 +16,24 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 * Algorithm & pseudocode
 * Pair-programming
 ## [Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+### Learn how to think as a programmer
+* Learn structure, architecture and infrastructure of an application
+* Introduction to database and object relational mapping (ORM)
+* Paradigm object-oriented programming (OOP)
+* Engineering empathy: contribution within team
 ## [Phase 2](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+### Find the beauty in developing web application
+* Build good portfolio as a web developer
+* Project management & agile workflow
+* Functional programming
+* Develop application with user interaction & experience
+* Engineering empathy: build an effective communication within the team
 ## [Phase 3](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+### Maximize your programming skill
+* Use React and React Native
+* Learn deployment and scaling of web application
+* Build minimum viable product (MVP)
+* Final Project : build a web application with the team
 
 # About Me
 My name is Andreas Sosilo. I am a software engineer with interest in web development and IoT.
