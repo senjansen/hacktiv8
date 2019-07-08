@@ -8,14 +8,14 @@ This is a repository and blog for my activity in Hacktiv8 Full Stack JavaScript 
 It includes the all the :closed_book: notes, :floppy_disk: coding files and :file_cabinet: projects from phase 0 to phase 3 during the coding bootcamp from Batch 34 - Humble Fox.
 
 
-## [Phase 0](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [Phase 0 - 6 Weeks](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
 ### Introduction
 * HTML, CSS, JavaScript
 * Git as source code management
 * Fundamental of computer science & data structure
 * Algorithm & pseudocode
 * Pair-programming
-## [Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+## [Phase 1 - 4 weeks](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
 ### Learn how to think as a programmer
 * Learn structure, architecture and infrastructure of an application
 * Introduction to database and object relational mapping (ORM)
