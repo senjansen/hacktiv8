@@ -9,6 +9,12 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 
 
 ## [Phase 0](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
+### Introduction
+* HTML, CSS, JavaScript
+* Git as source code management
+* Fundamental of computer science & data structure
+* Algorithm & pseudocode
+* Pair-programming
 ## [Phase 1](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
 ## [Phase 2](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
 ## [Phase 3](https://github.com/andreassosilo/hacktiv8/tree/master/phase0)
