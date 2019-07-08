@@ -6,9 +6,7 @@ function cariModus (arr) {
   let arrLength = arr.length
   let modusValue = []
 
-  if (arrLength === 0) {
-    return null
-  }
+  for
 }
 
 // TEST CASES
