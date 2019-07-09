@@ -11,7 +11,7 @@ function digitPerkalianMinimum (angka) {
     if (angka % num1 === 0) {
       let num2 = angka / num1
       combine = combine + num1 + num2
-      // console.log('Combine:' + combine)
+      console.log('Combine:' + combine)
       resultArr.push(combine)
     }
   }
@@ -23,7 +23,7 @@ function digitPerkalianMinimum (angka) {
     if (result > resultArr[counter].length) {
       result = resultArr[counter].length
     }
-    // console.log('Result:' + result)
+    console.log('Result:' + result)
   }
   return result
 }
