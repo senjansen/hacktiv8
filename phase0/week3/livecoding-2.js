@@ -30,14 +30,12 @@ var panjangPakaian = 21 // silahkan beri nilai bebas
 
 if (typeof jenisPakaian === 'string' && jenisPakaian === '') {
   console.log('Tentukan pakaian yang ingin Anda setrika')
-} else if (typeof jenisPakaian === 'string' && jenisPakaian !== '') {
-  if (pakaianPerluDisetrika === true) {
-    if ((jenisPakaian === 'baju' || jenisPakaian === 'celana') && panjangPakaian > 20) {
-      console.log('Pakaian sudah disetrika dan dilipat, Terima Kasih')
-    } else {
-      console.log('Pakaian sudah disetrika, Terima Kasih')
-    }
+} else if (typeof jenisPakaian === 'string' && pakaianPerluDisetrika === true) {
+  if ((jenisPakaian === 'baju' || jenisPakaian === 'celana') && panjangPakaian > 20) {
+    console.log('Pakaian sudah disetrika dan dilipat, Terima Kasih')
   } else {
-    console.log('Silahkan pilih pakaian yang ingin disetrika')
+    console.log('Pakaian sudah disetrika, Terima Kasih')
   }
+} else {
+  console.log('Silahkan pilih pakaian yang ingin disetrika')
 }
