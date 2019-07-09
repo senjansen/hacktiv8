@@ -1,7 +1,7 @@
 // Exercise 12 - X Shop
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to show object literal that has firstName, lastName, gender and age properties
+// Create function to calculate profit that return product, shoppers, leftOver and totalProfit
 function countProfit (shoppers) {
   let listBarang = [ ['Sepatu Stacattu', 1500000, 10],
     ['Baju Zoro', 500000, 2],
