@@ -1,4 +1,4 @@
-// Exercise 12 - Shopping Time!
+// Exercise 12 - X Shop
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to show object literal that has firstName, lastName, gender and age properties
@@ -8,7 +8,30 @@ function countProfit (shoppers) {
     ['Sweater Uniklooh', 175000, 1]
   ]
 
-  // you can only write your code here!
+  let result = []
+
+  if (!result) {
+    return result
+  } else {
+    // Adding object properties
+    for (let i = 0; i < listBarang.length; i++) {
+      let calculate = {}
+      calculate.product = listBarang[i][0]
+      calculate.shoppers = []
+      calculate.leftOver = listBarang[i][2]
+      calculate.totalProfit = 0
+      // Calculate profit and check leftover
+      for (let j = 0; j < shoppers.length; j++) {
+        if (calculate.product === shoppers[j].product && calculate.leftOver >= shoppers[j].amount) {
+          calculate.shoppers.push(shoppers[j].name)
+          calculate.leftOver -= shoppers[j].amount
+          calculate.totalProfit = listBarang[i][1] * (listBarang[i][2] - calculate.leftOver)
+        }
+      }
+      result.push(calculate)
+    }
+    return result
+  }
 }
 
 // TEST CASES
