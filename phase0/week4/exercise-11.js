@@ -1,7 +1,7 @@
 // Exercise 11 - Shopping Time!
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to show object literal that has firstName, lastName, gender and age properties
+// Create function to return object with information about memberId, money, listPurchased and changeMoney
 function shoppingTime (memberId, money) {
   // Sale items
   let sale = {
