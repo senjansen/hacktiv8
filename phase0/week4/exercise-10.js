@@ -38,29 +38,3 @@ changeMe([['Christ', 'Evans', 'Male', 1982], ['Robert', 'Downey', 'Male']]) // 1
 //   gender: 'Male',
 //   age: 'Invalid Birth Year' }
 changeMe([]) // ""
-
-/*
-if (arr.length === 0) {
-    console.log('')
-  } else {
-    for (let counter = 0; counter < arr.length; counter++) {
-      console.log((counter + 1) + '.', arr[counter][0], arr[counter][1] + ':')
-      if (personFirstName === undefined) {
-        person.firstName = arr[counter][0]
-      }
-      if (personLastName === undefined) {
-        person.lastName = arr[counter][1]
-      }
-      if (personGender === undefined) {
-        person.gender = arr[counter][2]
-      }
-      if (personAge === undefined) {
-        person.age = date - arr[counter][3]
-        if (arr[counter][3] === undefined || arr[counter][3] > date) {
-          person.age = 'Invalid Birth Year'
-        }
-        console.log(person)
-      }
-    }
-  }
-*/
