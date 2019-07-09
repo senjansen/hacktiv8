@@ -48,7 +48,6 @@ console.log(countProfit([{ name: 'Windi', product: 'Sepatu Stacattu', amount: 2 
 //   shoppers: [],
 //   leftOver: 1,
 //   totalProfit: 0 } ]
-
 console.log(countProfit([{ name: 'Windi', product: 'Sepatu Stacattu', amount: 8 }, { name: 'Vanessa', product: 'Sepatu Stacattu', amount: 10 }, { name: 'Rani', product: 'Sweater Uniklooh', amount: 1 }, { name: 'Devi', product: 'Baju Zoro', amount: 1 }, { name: 'Lisa', product: 'Baju Zoro', amount: 1 }]))
 // [ { product: 'Sepatu Stacattu',
 //     shoppers: [ 'Windi' ],
