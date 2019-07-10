@@ -36,7 +36,7 @@ On the first day I have succeeded in creating my first website by using a few si
 - 💪 [[**Self Training 2**] Decorate HTML with CSS](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-css-selector-and-styling.md)
 - 💪 [[**Self Training 3**] Membuat Layout dan Desain Halaman Web dengan CSS](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/anchor-css-layouting.md)
 
-## Wednesday,26 June 2019 & Thursday, 27 June 2019 - Version Control Using Git
+## Wednesday, 26 June 2019 & Thursday, 27 June 2019 - Version Control Using Git
 We learned about Git, a tool for controlling revisions of the code that you have created. And then hosting our own website on GitHub --> https://andreassosilo.github.io
 
 ### Material & Reference:
@@ -52,7 +52,7 @@ We learned about Git, a tool for controlling revisions of the code that you have
 [[**Self Training 5**] Create New Branch on Repository](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/git-branch-anchor.md)
 
 
-## Friday,28 June 2019 - One Step to Become Expert in HTML and CSS!
+## Friday, 28 June 2019 - One Step to Become Expert in HTML and CSS!
 Creating my personal website using HTML and CSS. And also learn more about CSS by reading the references.
 
 ### Material & Reference:
