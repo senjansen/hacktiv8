@@ -1,10 +1,8 @@
 # HACKTIV8 Phase 0 Activities
 
-Phase 0 adalah aktivitas yang mempersiapkan murid untuk mampu memahami dan masuk ke dalam Phase 1 Program
-Full-Stack JavaScript Development Course di HACKTIV8. Repositori ini digunakan sebagai acuan untuk pembelajaran dan bersifat wajib untuk dipelajari dan dikerjakan untuk berkesempatan melanjutkan ke dalam Phase 1.
+Phase 0 is an activity that prepares students to be able to understand and enter into the Phase 1 Program Full-Stack JavaScript Development Course on HACKTIV8.
 
-Materi di bagi ke dalam enam minggu, yang tiap minggu nya terdiri dari berbagai fokus materi. Kebanyakan dari
-materi dan tantangan yang tertera pada repositori ini hanya dapat di akses oleh murid yang sedang aktif di dalam phase 0 batch program.
+The material is divided into six weeks, each week consisting of various material focus. Most of the material and challenges are listed in this repository.
 
 ### [Week 1: Membuat Website Pertama Saya](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week1/README.md)
 ### [Week 2: Mengenal JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/README.md)
