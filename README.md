@@ -39,4 +39,4 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 My name is Andreas Sosilo. I am a software engineer with interest in web development and IoT.
 
 [Andreas' Personal Web Page](http://andreassosilo.github.io)
-![](https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png =100x100)
+<img src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png" width="100" height="100">
