@@ -1,7 +1,7 @@
 // Exercise 13 - Most Frequent Largest Numbers
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to display the largest number and its frequency
+// Create function to sort using bubble sort algorithm
 function sorting (arrNumber) {
   let arrLength = arrNumber.length
 
@@ -17,6 +17,7 @@ function sorting (arrNumber) {
   return arrNumber
 }
 
+// Create function to display the largest number and its frequency
 function getTotal (arrNumber) {
   let biggestNum = arrNumber[arrNumber.length - 1]
   let numFrequency = 0
