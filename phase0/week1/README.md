@@ -6,6 +6,7 @@
 - 💪 **Self Training** is an optional task or challenge that it is not collected. If you finish it well, the learning will be maximal! 😎
 - :rocket: **Rocket** is an optional challenge that tests your greatness as a future developer candidate
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
+===
 
 ## Monday, 24 June 2019 - My First Day in HACKTIV8 Phase 0
 My first day began by introducing myself to other friends at the Slack Group, and learn HTML to make a web in Codecademy.
