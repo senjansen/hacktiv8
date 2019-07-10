@@ -3,31 +3,32 @@
 
 // Create function to return the modus from an array number
 function cariModus (arr) {
-  let arrLength = arr.length
-  let obj = {}
-  let highestFreq = 0
-  let highest = ''
+  let modus = 0 // For modus value
+  let mostFrequent = 1 // To save the most frequent char
+  let counter = 0 // To count character appearance frequency
+  let totalCount = 0 // To calculate total counter that was found
+  let length = arr.length
 
-  for (let counter = 0; counter < arrLength; counter++) {
-    if (obj[arr[counter]] === undefined) {
-      obj[arr[counter]] = 1
-    } else {
-      obj[arr[counter]] += 1
+  for (let i = 0; i < length; i++) {
+    counter = 0
+    for (let j = 0; j < length; j++) {
+      if (arr[i] === arr[j]) {
+        counter++
+      }
     }
-  }
-
-  for (let key in obj) {
-    if (obj[key] > highestFreq) {
-      highestFreq = obj[key]
-      highest = key
+    // If counter value is bigger than mostFrequent, change mostFrequent and modus value
+    if (counter > mostFrequent) {
+      mostFrequent = counter
+      modus = arr[i]
     }
+    // Add counter that is found into total
+    totalCount += counter
   }
-
-  if (highestFreq === arrLength || Object.keys(obj).length === arrLength) {
-    return -1
-  } else {
-    return Number(highest)
+  // If counter average is equal to most frequent counter it isn't a modus
+  if ((totalCount / length) === mostFrequent) {
+    modus = -1
   }
+  return modus
 }
 
 // TEST CASES
