@@ -10,10 +10,3 @@ console.log(
     )
   }, 0)
 )
-
-let a = 0
-let b = 2
-
-for (let i = 2; i < b; i++) {
-  b += a
-}
