@@ -15,11 +15,13 @@ function countProfit (shoppers) {
   } else {
     // Adding object properties
     for (let i = 0; i < listBarang.length; i++) {
-      let calculate = {}
-      calculate.product = listBarang[i][0]
-      calculate.shoppers = []
-      calculate.leftOver = listBarang[i][2]
-      calculate.totalProfit = 0
+      let calculate = {
+        product: listBarang[i][0],
+        shoppers: [],
+        leftOver: listBarang[i][2],
+        totalProfit: 0
+      }
+
       // Calculate profit and check leftover
       for (let j = 0; j < shoppers.length; j++) {
         if (calculate.product === shoppers[j].product && calculate.leftOver >= shoppers[j].amount) {
