@@ -58,9 +58,9 @@ Creating my personal website using HTML and CSS. And also learn more about CSS b
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Memahahami perencanaan, process, dan manajemen dalam pembuatan web](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/web-dev-process.md)
+[Understand planning, process, and management in making web](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/web-dev-process.md)
 - :notebook_with_decorative_cover:
-[Mengenal adaptive web design dan responsive web design (RWB)](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/web-design.md)
+[Get to know adaptive web design & responsive web design (RWB)](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/web-design.md)
 
 ### Task:
 - :anchor:
