@@ -44,3 +44,5 @@ My name is Andreas Sosilo. I am a software engineer with interest in web develop
 
 >“You don't have to be great to start, but you have to start to be great.” –Zig Ziglar
 
+<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
+
