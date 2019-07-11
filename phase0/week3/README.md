@@ -1,14 +1,20 @@
 # Hacktiv8 Phase 0 Week 3: Arrays and Logics
 
-Selamat sudah melalui kegiatan pekan kedua! Pekan ketiga ini kita akan melatih pemahaman tentang logika dan implementasinya ke berbagai kasus. Pastikan kalian telah memahami dengan baik materi di minggu sebelum nya.
+In this third week, we will train our understanding of logic and its implementation in various cases.
 
-Karena sudah menginjak pekan ke 3, ada baiknya kamu menyelesaikan tugasnya dari hari ke hari secara rutin. Semaksimal mungkin tugas-tugas yang ada tidak ditumpuk di kemudian hari atau bahkan di akhir minggu, karena mulai pekan 3 ini setiap hari nya ada challenge coding yang menentukan kelanjutan ke phase 1 :bowtie: , dan semua challenge yang bertanda :anchor: ini wajib diselesaikan.
+**Guidance:**
+- :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
+- :anchor: **Anchor** is a task or challenge that you must do and collect.
+- 💪 **Self Training** is an optional task that it isn't collected. If you finish it well, the learning will be maximal!
+- :rocket: **Rocket** is an optional challenge that tests your greatness as a future developer candidate
+- :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
+---
 
-## Senin - Live Coding
+## Monday, 08 July 2019 - Live Coding
 
 Instruksi diberikan di channel kelas.
 
-## Selasa - Mengenal Tipe Data Array
+## Tuesday, 09 July 2019 - Mengenal Tipe Data Array
 
 Sebelumnya, kita telah belajar berbagai macam tipe data yang kita tampung di variabel JavaScript dan kita bermain operasi dengannya, menggunakan conditional, bahkan hingga looping. Sekarang, saatnya kita berkenalan dengan Array, tipe data yang sangat berguna untukmu dalam membuat penampungan data yang terstruktur.
 
@@ -29,7 +35,7 @@ Tugas :
 - :anchor:
 [[**Exercises 4**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](modules/anchor-mixed-array.md)
 
-## Rabu - Logic Challenges Refresh
+## Wednesday, 10 July 2019 - Logic Challenges Refresh
 
 Gunakan waktu sejenak untuk berkenalan dengan Node Js,
 sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di server. Jadi, kamu bisa dengan mudah membuat kode JavaScript yang dapat berjalan di terminal kamu. Hari ini juga, kamu akan mencoba langsung mengimplementasi kodemu melalui node Js!
@@ -50,7 +56,7 @@ Tugas :
 - :anchor:
 [[**Exercises 8 (Auto)**] Pasangan Angka Terbesar](/modules/challenge-pasangan-terbesar.md)
 
-## Kamis - More Logic Challenges
+## Thursday, 11 July 2019 - More Logic Challenges
 
 Hari baru, tantangan baru. Setelah belajar tentang array and solve berbagai problem dengan arrays, saatnya perbanyak latihan dengan soal yang terus melatih logika!
 
@@ -65,7 +71,7 @@ Tugas :
 - :anchor:
 [[**Exercises 12 (Auto)**] Deret Geometri](/modules/challenge-deret-geometri.md)
 
-## Jumat - More Arrays + Multidimensional Array
+## Friday, 12 July 2019 - More Arrays + Multidimensional Array
 
 Kamu telah mencoba berbagai macam soal, menggunakan array maupun tidak. Tentunya di saat ini kamu telah bisa menilai cara mana yang lebih baik menggunakan array, dan yang tidak perlu, bukan?
 
@@ -80,7 +86,7 @@ Hari ini, kamu akan bermain dengan array dan bentuk selanjutnya, yaitu array mul
 
 Tugas :
 
-## Sabtu dan Minggu
+## Saturday, 13 July 2019 & Sunday, 14 July 2019
 
 - [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
 - [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
