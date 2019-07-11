@@ -1,7 +1,7 @@
 // Exercise 6 - Damage Calculation
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to multiply all digits in a number using recursion until one digit left
+// Create function to calculate damage based on number of attacks and damage per attack
 function attack (damage) {
   return damage - 2
 }
