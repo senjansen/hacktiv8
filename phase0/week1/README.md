@@ -3,7 +3,7 @@
 **Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
 - :anchor: **Anchor** is a task or challenge that you must do and collect.
-- 💪 **Self Training** is an optional task or challenge that it is not collected. If you finish it well, the learning will be maximal! 😎
+- 💪 **Self Training** is an optional task that it isn't collected. If you finish it well, the learning will be maximal!
 - :rocket: **Rocket** is an optional challenge that tests your greatness as a future developer candidate
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
 ---
