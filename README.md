@@ -41,5 +41,5 @@ My name is Andreas Sosilo. I am a software engineer with interest in web develop
 ### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
 
 >“YOU DON’T HAVE TO BE GREAT TO START, BUT YOU HAVE TO START TO BE GREAT.” –ZIG ZIGLAR
+![alt text](<img src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png" width="70" height="70"> "Logo Title Text 1")
 
-<img src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png" width="70" height="70">
