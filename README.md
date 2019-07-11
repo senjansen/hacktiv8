@@ -3,7 +3,7 @@
 
 Hacktiv8 Full Stack JavaScript Immersive Course 
 
-This is a repository and blog for my activity in Hacktiv8 "Full Stack JavaScript Immersive Course" from June-October 2019 .
+This is a repository & blog for my activity in Hacktiv8 "Full Stack JavaScript Immersive Course" from June-October 2019.
 
 It includes the all the :closed_book: notes, :floppy_disk: coding files and :file_cabinet: projects from phase 0 to phase 3 during the coding bootcamp from Batch 34 - Humble Fox.
 
