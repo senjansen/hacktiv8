@@ -59,6 +59,7 @@ Lanjutkan perjuanganmu di tengah banyaknya tantangan yang diberikan di pekan ke 
 
 
 ## Friday, 19 July 2019 - Mastered Array and Object
+### Task:
 - :anchor: [[**Exercise 13**] Deep Sum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-13.js)
 - :anchor: [[**Exercise 14**] Naik Angkot](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-14.js)
 - :anchor: [[**Exercise 15**] Highest Score](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-15.js)
