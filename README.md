@@ -37,9 +37,10 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 
 # About Me
 My name is Andreas Sosilo. I am a software engineer with interest in web development and IoT.
-### [:bookmark_tabs: Andreas' Curriculum Vitae](https://github.com/andreassosilo/hacktiv8/blob/master/CV%20-%20Andreas%20Sosilo.pdf)
-### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
 
 <img align="right" width="170" height="170" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
+
+### [:bookmark_tabs: Andreas' Curriculum Vitae](https://github.com/andreassosilo/hacktiv8/blob/master/CV%20-%20Andreas%20Sosilo.pdf)
+### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
 
 >*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
