@@ -1,7 +1,7 @@
 // Exercise 8 - Delete Symbol (Regex)
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
-// Create function to remove any characters other than a-z and 0-9 using Regex
+// Create function to remove any characters other than a-z and 0-9 in a string using Regex
 function hapusSimbol (str) {
   return str.replace(/[^a-z0-9]/g, '')
 }
