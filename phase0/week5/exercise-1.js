@@ -1,4 +1,4 @@
-// Exercise 13 - Most Frequent Largest Numbers
+// Exercise 1 - Most Frequent Largest Numbers
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to sort using bubble sort algorithm
