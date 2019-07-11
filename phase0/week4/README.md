@@ -23,46 +23,46 @@ Hari baru, tantangan baru! terus tantang diri kamu untuk mengahadapi tantangan b
 
 ### Task:
 - :anchor:
-[[**Exercises 1**] Angka Prima](/modules/challenge-angka-prima.md)
+[[**Exercise 1**] Angka Prima](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-1.js)
 - :anchor:
-[[**Exercises 2**] Faktor Persekutuan Terbesar](/modules/challenge-faktor-persekutuan-terbesar.md)
+[[**Exercise 2**] Faktor Persekutuan Terbesar](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-2.js)
 - :anchor:
-[[**Exercises 3**] Cari Median](/modules/challenge-cari-median.md)
+[[**Exercise 3**] Cari Median](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-3.js)
 - :anchor:
-[[**Exercises 4**] Cari Modus](/modules/challenge-cari-modus.md)
+[[**Exercise 4**] Cari Modus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-4.js)
 - :anchor:
-[[**Exercises 5**] Ubah Huruf](/modules/challenge-ubah-huruf.md)
+[[**Exercise 5**] Ubah Huruf](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-5.js)
 
 ## Wednesday, 17 July 2019 - Built-in Functions Mastery
 Hari ketiga di pekan keempat. Keep up the good work! Banyak tantangan menunggu seminggu ke depan :cool:
 
 ### Task:
 - :anchor:
-[[**Exercises 6**] Digit Perkalian Minimum](/modules/challenge-digit-perkalian-minimum.md)
+[[**Exercise 6**] Digit Perkalian Minimum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-6.js)
 - :anchor:
-[[**Exercises 7**] Urutkan Abjad](/modules/challenge-urutkan-abjad.md)
+[[**Exercise 7**] Urutkan Abjad](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-7.js)
 - :anchor:
-[[**Exercises 8**] Tukar Ukuran](/modules/challenge-tukar-besar-kecil.md)
+[[**Exercise 8**] Tukar Ukuran](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-8.js)
 - :anchor:
-[[**Exercises 9**] Cek AB](/modules/challenge-cek-ab.md)
+[[**Exercise 9**] Cek AB](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-9.js)
 
 ## Thursday, 18 July 2019 - Object Literal
 Lanjutkan perjuanganmu di tengah banyaknya tantangan yang diberikan di pekan ke empat.
 
 ### Task:
 - :anchor:
-[[**Exercises 10**] Change me](modules/challenge-object-literal.md)
+[[**Exercise 10**] Change me](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-10.js)
 - :anchor:
-[[**Exercises 11**] Shopping Time!](modules/challenge-shopping-time.md)
+[[**Exercise 11**] Shopping Time!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-11.js)
 - :anchor:
-[[**Exercises 12**] Toko X](modules/challenge-toko-x.md)
+[[**Exercise 12**] Toko X](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-12.js)
 
 
 ## Friday, 19 July 2019 - Mastered Array and Object
-- :anchor: [[**Exercises 13**] Deep Sum](modules/challenge-deep-sum.md)
-- :anchor: [[**Exercises 14**] Naik Angkot](modules/challenge-naik-angkot.md)
-- :anchor: [[**Exercises 15**] Highest Score](modules/challenge-highest-score.md)
-- :anchor: [[**Exercises 16**] Graduates](modules/challenge-graduates.md)
+- :anchor: [[**Exercise 13**] Deep Sum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-13.js)
+- :anchor: [[**Exercise 14**] Naik Angkot](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-14.js)
+- :anchor: [[**Exercise 15**] Highest Score](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-15.js)
+- :anchor: [[**Exercise 16**] Graduates](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-16.js)
 
 ## Saturday, 20 July 2019 & Sunday, 21 July 2019
 
