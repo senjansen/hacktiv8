@@ -38,9 +38,9 @@ It includes the all the :closed_book: notes, :floppy_disk: coding files and :fil
 # About Me
 <img align="right" width="170" height="170" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
 
-My name is Andreas Sosilo, a creative Full Stack Web Developer with interest and skills in web development using JavaScript, React, Node.js, HTML and CSS.
+My name is Andreas Sosilo, currently taking part in coding bootcamp for web development. My career aspiration is to become a full stack web developer using skills and technologies such as JavaScript, HTML, CSS, React and Node.js.
 
-Building sophisticated and cutting-edge web applications is my passion. Feel free to connect with me for anything related to web development and IoT.
+Building sophisticated and cutting-edge web applications is my passion.Previously I studied Mechatronics at Universität Siegen in Germany where I had experiences in C# and C++ during master and bachelor thesis. I used to work as automation engineer before deciding to pursue my passion in web development. Feel free to connect with me for anything related to web development or IoT.
 
 ### [:bookmark_tabs: Andreas' Curriculum Vitae](https://github.com/andreassosilo/hacktiv8/blob/master/CV%20-%20Andreas%20Sosilo.pdf)
 ### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
