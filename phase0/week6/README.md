@@ -1,6 +1,6 @@
-# Hacktiv8 Phase 0 Week 5: Recursive, Regex, and Object Oriented Programming in JavaScript
+# Hacktiv8 Phase 0 Week 6: Finals and JavaScript DOM
 
-This week we will practice the concepts of Recursive, Regex, and Data Object types in JavaScript.
+We arrive in the last week of phase 0! In the last week of phase 0, we focus on the final live coding, and we will play with DOM and make web project using HTML, CSS, JavaScript!
 
 **Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
@@ -10,50 +10,49 @@ This week we will practice the concepts of Recursive, Regex, and Data Object typ
 - :books: **Optional Reference** s a reference as an additional reference that will enrich your knowledge
 ---
 
-## Monday, 22 July 2019 - Live Coding (Arrays, Looping, & Conditionals)
+## Monday, 29 Juli 2019 - Tuesday, 30 Juli 2019: Final Live Coding (Offline).
+Ini saat yang menentukan untuk bisa lanjut ke Phase 1. Persiapkan ilmu yang telah kamu pelajari di logic dan JavaScript! Note: Materi Week 1, dan 6 tidak diikutkan ke dalam kompetensi Final Live Coding. Berbeda dengan Live Coding sebelumnya, Final Live Coding ini wajib dilakukan Offline.
 
-Tiba saatnya kita melakukan Live Coding yang bertujuan untuk menguji kemampuanmu sesuai dengan yang telah kamu pelajari dan kamu latih di pekan ini. Melalui live coding ini kami akan menilai pengertian kamu selama ini tentang JavaScript, dan tentunya kami akan memberikan feedback agar kamu bisa meningkatkan bagian mana yang masih kurang. Sesi live coding ini, tidak seperti tantangan-tantangan di hari-hari sebelumnya. **Kamu tidak bisa mengulang atau memperbaiki apa yang telah kamu kerjakan di sesi live coding.** Sesi live coding tidak dibuat untuk membuatmu gagal, namun untuk memastikan apakah kamu telah terlatih dengan soal-soal coderbyte sebelumnya. Gagal di sesi live coding tidak mutlak membuatmu gagal di Phase 0, namun akan mempengaruhi keputusan instruktur untuk bisa melanjutkanmu ke Phase 1.
+## Wednesday, 31 July 2019 - Document Object Model (DOM)
+Akhirnya beberapa pekan tantangan yang penuh logika berakhir. Sekarang, kamu akan mempelajari mempelajari DOM, yang akan membuat website kamu menjadi interaktif dan menarik! Kamu akan ditantang dengan DOM di week 6 setelah final live coding, jadi silakan baca materi ini setelah kamu telah siap untuk mengambil final live coding di Senin pekan depan.
 
-## Tuesday, 23 July 2019 - Modularizing Code using Functions & Recursive Functions
-
-### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal Rekursif](/modules/js-function-recursive.md)
-
-### Task:
-- :anchor: [[**Exercise 1**] Most Frequent Largest Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-1.js)
-- :anchor: [[**Exercise 2**] Password Generator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-2.js)
-- :anchor: [[**Exercise 3**] Makan Terus Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-3.js)
-- :anchor: [[**Exercise 4**] Total Digit Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-4.js)
-- :anchor: [[**Exercise 5**] Kali Terus Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-5.js)
-
-
-## Wednesday, 24 July 2019 - Git Branch
-
-### Material & Reference:
+[Mengenal DOM](/modules/js-dom-intro.md)
 - :notebook_with_decorative_cover:
-[Cara Submit menggunakan Git Branch (Untuk Exercises Hari Rabu)](/modules/submitting-on-a-new-branch.md)
-
-### Task:
-- :anchor: [[**Exercise 6**] Damage Calculation](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-6.js)
-- :anchor: [[**Exercise 7**] Melee Ranged Grouping](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-7.js)
-
-## Thursday, 25 July 2019 - Regex
-
-### Material & Reference:
+[Membuat DOM](/modules/js-dom-creation.md)
 - :notebook_with_decorative_cover:
-[Mengenal Regular Expressions](/modules/regular-expressions.md)
+[Menjelajah DOM](/modules/js-dom-transversing.md)
 
-### Task:
+## Thursday, 01 August 2019 - Document Object Model
+Mulai hari ini, kamu akan berkenalan dengan DOM, topik baru yang dapat kamu manfaatkan untuk berlatih memanipulasi halaman HTML dan tampilannya dengan JavaScript. (Yap, betul. Back to HTML!)
+
+Materi & Referensi :
+- :notebook_with_decorative_cover:
+[Mengenal DOM](/modules/js-dom-intro.md)
+- :notebook_with_decorative_cover:
+[Membuat DOM](/modules/js-dom-creation.md)
+- :notebook_with_decorative_cover:
+[Menjelajah DOM](/modules/js-dom-transversing.md)
+
+Tugas :
+- 💪
+[[**Self Training 1**] Memanipulasi Element HTML](modules/anchor-js-dom-manipulation.md)
+- 💪
+[[**Self Training 2**] Memanipulasi dan Menjelajah DOM](modules/anchor-js-dom-transverse-manipulation.md)
+- 💪
+[[**Self Training 3**] Membuat Validasi Form menggunakan JavaScript](modules/anchor-js-form-validation.md)
+- 💪
+[[**Self Training 4**] Membuat Element HTML Dinamis Dengan JavaScript](modules/anchor-js-dom-creation.md)
+
+## Friday, 02 August 2019 - Final Project!
+
+Tibalah di hari terakhir fase 0. Kamu akan ditantang untuk membuat final project web app apapun memanfaatkan topik DOM. Final Project ini paling lambat dikumpulkan di sabtu malam agar kamu punya waktu luang untuk berkreasi dan mempersiapkan diri ke fase 1. Final Project sebagai syarat untuk student yang telah memenuhi final live code dan nilai tugas agar bisa masuk ke fase 1.
+
 - :anchor:
-[[**Exercise 8**] Hapus Simbol](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-8.js)
-- :anchor:
-[[**Exercise 9**] Cari Pelaku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
+[[**Final Project**] Membuat Web App menggunakan HTML, CSS, dan JavaScript](modules/anchor-js-dom-web-app.md)
 
-## Friday, 26 July 2019 - Simulasi Final Live Code
-Lakukan yang terbaik, mulailah beradaptasi dengan suasana live code agar lebih tenang. Usahakan kerjakan dengan hasil sendiri, masih ada kesempatan untuk tanya jawab di minggu berikutnya
 
-## Saturday, 27 July 2019 & Sunday, 28 July 2019
+## Saturday, 03 August 2019 & Sunday, 04 August 2019
 
 - [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
 - [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
