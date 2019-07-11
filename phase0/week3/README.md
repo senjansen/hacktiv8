@@ -12,20 +12,19 @@ In this third week, we will train our understanding of logic and its implementat
 
 ## Monday, 08 July 2019 - Live Coding
 
+### Task:
 Instruksi diberikan di channel kelas.
 
 ## Tuesday, 09 July 2019 - Mengenal Tipe Data Array
 
 Sebelumnya, kita telah belajar berbagai macam tipe data yang kita tampung di variabel JavaScript dan kita bermain operasi dengannya, menggunakan conditional, bahkan hingga looping. Sekarang, saatnya kita berkenalan dengan Array, tipe data yang sangat berguna untukmu dalam membuat penampungan data yang terstruktur.
 
-Materi & Referensi :
-
+### Material & Reference:
 - :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
 - :notebook_with_decorative_cover:
 [Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
 
-Tugas :
-
+### Task:
 - :anchor:
 [[**Exercises 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
@@ -40,13 +39,12 @@ Tugas :
 Gunakan waktu sejenak untuk berkenalan dengan Node Js,
 sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di server. Jadi, kamu bisa dengan mudah membuat kode JavaScript yang dapat berjalan di terminal kamu. Hari ini juga, kamu akan mencoba langsung mengimplementasi kodemu melalui node Js!
 
-Materi & Referensi :
-
+### Material & Reference:
 - :notebook_with_decorative_cover:
 [Mengenal Node JS](/modules/js-node.md)
 - :notebook_with_decorative_cover: [Membuat code JavaScript-mu dengan Baik ](modules/js-code-style.md)
 
-Tugas :
+### Task:
 - :anchor:
 [[**Exercises 5 (Auto)**] Palindrome](/modules/challenge-palindrome.md)
 - :anchor:
@@ -60,8 +58,7 @@ Tugas :
 
 Hari baru, tantangan baru. Setelah belajar tentang array and solve berbagai problem dengan arrays, saatnya perbanyak latihan dengan soal yang terus melatih logika!
 
-Tugas :
-
+### Task:
 - :anchor:
 [[**Exercises 9 (Auto)**] Cari Mean](/modules/challenge-cari-mean.md)
 - :anchor:
@@ -77,14 +74,12 @@ Kamu telah mencoba berbagai macam soal, menggunakan array maupun tidak. Tentunya
 
 Hari ini, kamu akan bermain dengan array dan bentuk selanjutnya, yaitu array multidimensi. Tenang saja, array multidimensi konsep nya sama persis dengan array satu dimensi!
 
-- :anchor:
+### Task:
 [[**Exercises 13 (Auto)**] Target Terdekat](/modules/challenge-target-terdekat.md)
 - :anchor:
 [[**Exercises 14**] Mengelompokkan Angka](modules/challenge-kelompok-angka.md)
 - :anchor:
 [[**Exercises 15**] Mengelompokkan Hewan](modules/challenge-kelompok-hewan.md)
-
-Tugas :
 
 ## Saturday, 13 July 2019 & Sunday, 14 July 2019
 
