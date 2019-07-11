@@ -13,12 +13,11 @@ In this second week, we will get acquainted with JavaScript,practice logic and d
 ## Monday, 01 July 2019 - Pengenalan Programming, Algoritma, dan Pseudocode
 Hari pertama di Week 2! Mulailah pekan baru dengan semangat baru! Hari ini, kamu akan bertemu dengan banyak kode yang mungkin belum pernah kamu lihat sebelumnya. Bersiaplah, dan jangan lupa bertanya apabila kamu menemukan kesulitan. Selamat belajar! :smile:
 
-Materi & Referensi :
+### Material & Reference:
 - :notebook_with_decorative_cover:
 [Mempelajari struktur alur program dengan algoritma dan pseudocode](modules/algorithm-pseudocode.md)
 
-Tugas :
-
+### Task:
 - :anchor:
 [[**Exercises 1**] Berlatih dengan Pseudocode](modules/challenge-main-pseudocode.md)
 
@@ -26,7 +25,7 @@ Tugas :
 
 Hari ini masuklah kita ke bahasa pemrograman JavaScript. Yuk kenalan dengan JavaScript dan langsung coba keseruannya!
 
-Materi & Referensi :
+### Material & Reference:
 
 - :wrench:
 [Repl, tools online untuk menjalankan JavaScript](https://repl.it/languages/javascript)
@@ -39,8 +38,7 @@ Materi & Referensi :
 - :notebook_with_decorative_cover:
 [Memahami Control Flow: Conditional dan Branching](modules/js-first-time.md#conditional)
 
-Tugas :
-
+### Task:
 - :anchor:
 [[**Exercises 2**] Codecademy JavaScript Building Blocks: Unit 1 and 2 - Intro and Control Flow only](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
@@ -52,7 +50,7 @@ Tugas :
 
 Hari ini mari kita berkenalan dengan string dan perulangan, atau sering disebut juga sebagai looping atau iteration di JavaScript.
 
-Materi & Referensi :
+### Material & Reference:
 - :notebook_with_decorative_cover:
 [Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
 - :notebook_with_decorative_cover:
@@ -60,7 +58,7 @@ Materi & Referensi :
 - :notebook_with_decorative_cover:
 [Memahami Built-in Object Math](modules/math-object-js.md)
 
-Tugas :
+### Task:
 - :anchor: [[**Exercises 5**] Bermain dengan String di JavaScript](modules/anchor-main-string.md)
 - :anchor: [[**Exercises 6**] Berlatih Perulangan di JavaScript](modules/anchor-main-loop.md)
 - :anchor: [[**Exercises 7**] Perulangan - Play with Asterisks](modules/anchor-main-loop-asterisks.md)
@@ -69,14 +67,13 @@ Tugas :
 
 Mulai familiar dengan JavaScript? Good! Saatnya kita masuk ke pembahasan bagaimana alur dan algortima yang sangat penting untuk menyelesaikan kasus dengan programming, dan juga mengenal dengan yang namanya functions dan scope yang sangat membantu kamu untuk membuat program.
 
-Materi & Referensi :
+### Material & Reference:
 - :notebook_with_decorative_cover:
 [Mempelajari Function atau Method](modules/js-first-time.md#functionmethod)
 - :notebook_with_decorative_cover:
 [Mempelajari Scope](modules/js-scope.md)
 
-Tugas :
-
+### Task:
 - :anchor:
 [[**Exercises 8**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 3 - Functions)](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
@@ -84,6 +81,7 @@ Tugas :
 
 ## Friday, 05 July 2019 - Solve Problems menggunakan JavaScript
 
+### Task:
 - :anchor:
 [[**Exercises 10**] Bandingkan Angka](/modules/challenge-bandingkan-angka.md)
 - :anchor:
@@ -96,8 +94,7 @@ Tugas :
 <!-- ## Kamis - mengenal Array dan Memperdalam String
 Sebelumnya, kita telah belajar berbagai macam tipe data yang kita tampung di variabel JavaScript dan kita bermain operasi dengannya, menggunakan conditional, bahkan hingga looping. Sekarang, saatnya kita berkenalan dengan Array, tipe data yang sangat berguna untukmu dalam membuat penampungan data yang terstruktur.
 
-Materi & Referensi :
-
+### Material & Reference:
 - :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
 - :notebook_with_decorative_cover:
 [Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
