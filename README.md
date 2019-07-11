@@ -42,4 +42,4 @@ My name is Andreas Sosilo. I am a software engineer with interest in web develop
 
 <img align="center" width="170" height="170" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
 
->“You don't have to be great to start, but you have to start to be great.” –Zig Ziglar
+>*“You don't have to be great to start, but you have to start to be great.”* –Zig Ziglar
