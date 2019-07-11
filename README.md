@@ -40,9 +40,6 @@ My name is Andreas Sosilo. I am a software engineer with interest in web develop
 ### [:bookmark_tabs: Andreas' Curriculum Vitae](https://github.com/andreassosilo/hacktiv8/blob/master/CV%20-%20Andreas%20Sosilo.pdf)
 ### [:computer: Andreas' Personal Web Page](http://andreassosilo.github.io)
 
-<img align="right" width="70" height="70" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
+<img align="center" width="170" height="170" src="https://github.com/andreassosilo/andreassosilo.github.io/blob/master/Assets/programmer_black.png">
 
 >“You don't have to be great to start, but you have to start to be great.” –Zig Ziglar
-
-<img align="right" width="100" height="100" src="http://www.fillmurray.com/100/100">
-
