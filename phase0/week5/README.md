@@ -50,7 +50,7 @@ Tiba saatnya kita melakukan Live Coding yang bertujuan untuk menguji kemampuanmu
 - :anchor:
 [[**Exercise 9**] Cari Pelaku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
 
-## Friday, 26 July 2019 - Simulasi Final Live Code
+## Friday, 26 July 2019 - Simulation Final Live Code
 Lakukan yang terbaik, mulailah beradaptasi dengan suasana live code agar lebih tenang. Usahakan kerjakan dengan hasil sendiri, masih ada kesempatan untuk tanya jawab di minggu berikutnya
 
 ## Saturday, 27 July 2019 & Sunday, 28 July 2019
