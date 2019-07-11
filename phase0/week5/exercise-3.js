@@ -1,4 +1,4 @@
-// Exercise 2 - All You Can Eat (Recursion)
+// Exercise 3 - All You Can Eat (Recursion)
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to reduce 15 minutes for every dishes that was eaten, given a certain time input
