@@ -2,7 +2,7 @@
 
 We arrive in the last week of phase 0! In the last week of phase 0, we focus on the final live coding, and we will play with DOM and make web project using HTML, CSS, JavaScript!
 
-**Guidance:**
+:bulb: **Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
 - :anchor: **Anchor** is a task or challenge that you must do and collect.
 - 💪 **Self Training** is an optional task that it isn't collected. If you finish it well, the learning will be maximal!
