@@ -1,6 +1,6 @@
 # Hacktiv8 Phase 0 Week 1: Creating My First Website
 
-**Guidance:**
+**:bulb: Guidance:**
 - :notebook_with_decorative_cover: **Reference** is a material for your learning reference. In some readings, there is a direction that asks you to make something. Direction is more optional to help you.
 - :anchor: **Anchor** is a task or challenge that you must do and collect.
 - 💪 **Self Training** is an optional task that it isn't collected. If you finish it well, the learning will be maximal!
