@@ -5,7 +5,7 @@ function manualReverse (arr) {
   let newArray = []
   let indexOfNewArray = 0
 
-  // looping, masukkan data ke array baru, mulai dari index terakhir s.d. index pertama
+  // Looping, insert data to new array, from last index until first index.
   for (let i = arr.length - 1; i >= 0; i--) {
     newArray[indexOfNewArray] = arr[i]
     indexOfNewArray++
