@@ -51,7 +51,7 @@ function targetTerdekat (arr) {
       xFlag = true
       oFlag = false
       counterDistance = 0
-      // onsole.log('Counter distance:' + counterDistance + ' at ' + counter)
+      // console.log('Counter distance:' + counterDistance + ' at ' + counter)
     } else if (arr[counter] === 'o' && xFlag === true) { // if previous component is x and current component is o
       oFlag = true
       xFlag = false
@@ -87,7 +87,7 @@ function targetTerdekat (arr) {
       counterDistance++
       // console.log('Counter distance:' + counterDistance + ' at ' + counter)
     } else if (arr[counter] === ' ' && xFlag === false && oFlag === false) { // if the first component is ' ' and current component is ' '
-      oFlag = true
+      oFlag = false
       xFlag = false
       counterDistance = 0
       // console.log('Counter distance:' + counterDistance + ' at ' + counter)
