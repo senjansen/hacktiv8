@@ -3,20 +3,18 @@
 
 // Create function to check the geometry series of an array number
 function tentukanDeretGeometri (arr) {
-  let multiplier = 0
+  let multiplier = arr[1] / arr[0]
   let checker = false
-
-  multiplier = arr[1] / arr[0]
 
   for (let counter = 1; counter < arr.length - 1; counter++) {
     if (arr[counter + 1] / arr[counter] === multiplier) {
       checker = true
     } else {
       checker = false
+      break
     }
     // console.log('Counter: ' + counter + ' = ' + checker);
   }
-
   return checker
 }
 
