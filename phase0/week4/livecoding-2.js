@@ -1,4 +1,4 @@
-// Live Coding Week 4 - Question 1
+// Live Coding Week 4 - Question 2
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
