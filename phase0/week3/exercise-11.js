@@ -13,6 +13,7 @@ function tentukanDeretAritmatika (arr) {
       checker = true
     } else {
       checker = false
+      break
     }
     // console.log('array [counter+1] : ' + arr[counter + 1])
     // console.log('array [counter] : ' + (arr[counter]))
