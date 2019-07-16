@@ -13,7 +13,15 @@ In this third week, we will train our understanding of logic and its implementat
 ## Monday, 08 July 2019 - Live Coding
 
 ### Task:
-Instruksi diberikan di channel kelas.
+Instruction was give in Slack channel and we were given 1 hour to solve the problem.
+- :anchor:
+[[**Live Coding 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-1.js)
+- :anchor:
+[[**Live Coding 2**] Tantangan Array 1 (Mengakses Nilai dalam Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-2.js)
+- :anchor:
+[[**Live Coding 3**] Tantangan Array 2 (Melooping menggunakan Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
+- :rocket:
+[[**Live Coding 4**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
 
 ## Tuesday, 09 July 2019 - Mengenal Tipe Data Array
 
