@@ -18,6 +18,17 @@ Tiba saatnya kita melakukan Live Coding yang bertujuan untuk menguji kemampuanmu
 - :notebook_with_decorative_cover:
 [Materi Object Literal](/modules/js-object-literal.md)
 
+### Task:
+Instruction was give in Slack channel and we were given 1 hour to solve the problem.
+- :anchor:
+[[**Live Coding 1**] Sum The Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-1.js)
+- :anchor:
+[[**Live Coding 2**] American Got Talent](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-2.js)
+- :anchor:
+[[**Live Coding 3**] Richest Group](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-3.js)
+- :rocket:
+[[**Live Coding 4**] Richest Group Dynamic](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-4.js)
+
 ## Tuesday, 16 July 2019 - Numbers Crunching and Play with Strings
 Hari baru, tantangan baru! terus tantang diri kamu untuk mengahadapi tantangan baru minggu ini dan percayalah semuanya akan terbalaskan pada waktunya :smile:
 
