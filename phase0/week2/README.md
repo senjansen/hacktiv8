@@ -79,22 +79,16 @@ It is time for us to go into the discussion of how the flow and algorithms are v
 
 ### Task:
 - :anchor:
-[[**Exercises 10**] Bandingkan Angka](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-10.js)
+[[**Exercise 10**] Compare Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-10.js)
 - :anchor:
-[[**Exercises 11**] Balik Kata](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-11.js)
+[[**Exercise 11**] Reverse Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-11.js)
 - :anchor:
-[[**Exercises 12**] Konversi Menit](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-12.js)
+[[**Exercise 12**] Converse Minutes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-12.js)
 - :anchor:
-[[**Exercises 13**] X dan O](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
-
-### Material & Reference:
-- :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
-- :notebook_with_decorative_cover:
-[Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
-
-- :anchor: [[**Exercises 16**] WEEKLY PROJECT - Simple JavaScript App](modules/js-application.md) -->
+[[**Exercise 13**] Logic Challenges X & O](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-13.js)
 
 ## Saturday, 06 July 2019 & Sunday, 07 July 2019
 
--  [Refleksi kegiatan pekan ini](modules/reflection.md)
--  [Blogging teknikal terkait skill pekan ini](modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week2/README.md)
