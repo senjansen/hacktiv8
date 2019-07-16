@@ -44,7 +44,7 @@ Today we learn the JavaScript programming language. Let's get acquainted with Ja
 - :anchor:
 [[**Exercise 4**] Know the usage of conditional `switch-case` in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 
-## Wednesday, 03 July 2019 - Data Type `String` & Concept of Looping or Iteration
+## Wednesday, 03 July 2019 - Data Type `String` & Concept of Looping
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
