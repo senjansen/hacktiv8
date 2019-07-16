@@ -53,7 +53,7 @@ ENDFUNCTION
 
 function sumTheNumber (stringNumber) {
   let sum = 0
-
+  // Check the index of each string Number and sum the value
   for (let i = 0; i < stringNumber.length; i++) {
     let value = parseInt(stringNumber[i])
     if (i % 2 !== 0) {
