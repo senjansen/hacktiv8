@@ -21,11 +21,10 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 - :anchor:
 [[**Live Coding 3**] Pyramid Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
 - :rocket:
-[[**Live Coding 4**] Pyramid Number Extension](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
+[[**Live Coding Rocket**] Pyramid Number Extension](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
 
-## Tuesday, 09 July 2019 - Mengenal Tipe Data Array
-
-Sebelumnya, kita telah belajar berbagai macam tipe data yang kita tampung di variabel JavaScript dan kita bermain operasi dengannya, menggunakan conditional, bahkan hingga looping. Sekarang, saatnya kita berkenalan dengan Array, tipe data yang sangat berguna untukmu dalam membuat penampungan data yang terstruktur.
+## Tuesday, 09 July 2019 - Identify Array Data Types  
+Now, it's time for us to get acquainted with Array, a data type that is very useful for you in making structured data collection.
 
 ### Material & Reference:
 - :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
@@ -54,42 +53,39 @@ sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di se
 
 ### Task:
 - :anchor:
-[[**Exercises 5 (Auto)**] Palindrome](/modules/challenge-palindrome.md)
+[[**Exercise 5 (Auto)**] Palindrome](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-5.js)
 - :anchor:
-[[**Exercises 6 (Auto)**] Palindrome Angka](/modules/challenge-palindrome-angka.md)
+[[**Exercise 6 (Auto)**] Palindrome Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-6.js)
 - :anchor:
-[[**Exercises 7 (Auto)**] Hitung Jumlah Kata](/modules/challenge-hitung-jumlah-kata.md)
+[[**Exercise 7 (Auto)**] Counting Words
+// Andreas Sosilo - Hacktiv8 B](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-7.js)
 - :anchor:
-[[**Exercises 8 (Auto)**] Pasangan Angka Terbesar](/modules/challenge-pasangan-terbesar.md)
+[[**Exercise 8 (Auto)**] The Biggest Number Combination](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-8.js)
 
 ## Thursday, 11 July 2019 - More Logic Challenges
 
-Hari baru, tantangan baru. Setelah belajar tentang array and solve berbagai problem dengan arrays, saatnya perbanyak latihan dengan soal yang terus melatih logika!
-
 ### Task:
 - :anchor:
-[[**Exercises 9 (Auto)**] Cari Mean](/modules/challenge-cari-mean.md)
+[[**Exercise 9 (Auto)**] Looking for Mean](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-9.js)
 - :anchor:
-[[**Exercises 10 (Auto)**] Perkalian Unik](/modules/challenge-perkalian-unik.md)
+[[**Exercise 10 (Auto)**] Unique Multiplication](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-10.js)
 - :anchor:
-[[**Exercises 11 (Auto)**] Deret Aritmatika](/modules/challenge-deret-aritmatika.md)
+[[**Exercise 11 (Auto)**] Arithmetic Progression](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-11.js)
 - :anchor:
-[[**Exercises 12 (Auto)**] Deret Geometri](/modules/challenge-deret-geometri.md)
+[[**Exercise 12 (Auto)**] Geometry Progression](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-12.js)
 
 ## Friday, 12 July 2019 - More Arrays + Multidimensional Array
-
-Kamu telah mencoba berbagai macam soal, menggunakan array maupun tidak. Tentunya di saat ini kamu telah bisa menilai cara mana yang lebih baik menggunakan array, dan yang tidak perlu, bukan?
-
-Hari ini, kamu akan bermain dengan array dan bentuk selanjutnya, yaitu array multidimensi. Tenang saja, array multidimensi konsep nya sama persis dengan array satu dimensi!
+You will play with arrays and the next form, which is a multidimensional array. Take it easy, the multidimensional array concept is exactly the same as a one-dimensional array!
 
 ### Task:
-[[**Exercises 13 (Auto)**] Target Terdekat](/modules/challenge-target-terdekat.md)
+[[**Exercise 13 (Auto)**] Nearest Target](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-13.js)
 - :anchor:
-[[**Exercises 14**] Mengelompokkan Angka](modules/challenge-kelompok-angka.md)
+[[**Exercise 14**] Grouping Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-14.js)
 - :anchor:
-[[**Exercises 15**] Mengelompokkan Hewan](modules/challenge-kelompok-hewan.md)
+[[**Exercise 15**] Grouping Animals](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-15.js)
 
 ## Saturday, 13 July 2019 & Sunday, 14 July 2019
 
-- [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
-- [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week3/README.md)
