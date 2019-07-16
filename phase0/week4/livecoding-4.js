@@ -42,6 +42,7 @@
 
 function richestGroupDynamic (groups) {
   let result = []
+  // First loop to check each array inside multidimensional array
   for (let i = 0; i < groups.length; i++) {
     let totalVotes = []
     let counter = 0
@@ -49,13 +50,13 @@ function richestGroupDynamic (groups) {
     let mostName = ''
     let mostVotes = 0
     let status = false
-    // Sort input
+    // Sort each array in multidimensional array
     groups[i] = sorting(groups[i])
-    // Define the first
+    // Define the first person in array
     name.push(groups[i][0])
     name.push(1)
     totalVotes.push(name)
-
+    // Check the next persons in array
     for (let j = 1; j < groups[i].length; j++) {
       if (groups[i][j] === groups[i][j - 1]) {
         totalVotes[counter][1] += 1
@@ -67,6 +68,7 @@ function richestGroupDynamic (groups) {
         counter++
       }
     }
+    // Check the most riches person in the array
     for (let k = 0; k < totalVotes.length; k++) {
       if (totalVotes[k][1] > mostVotes) {
         mostVotes = totalVotes[k][1]
@@ -76,13 +78,14 @@ function richestGroupDynamic (groups) {
         status = false
       }
     }
+    // Add the most riches person in each array to result array
     if (status) {
       result.push(mostName)
     }
   }
   return result
 }
-
+// Create function to sort an array input
 function sorting (arr) {
   let arrLength = arr.length
 
