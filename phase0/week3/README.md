@@ -75,6 +75,7 @@ Take a moment to get acquainted with Node.js, a platform that allows you to run 
 You will play with arrays and the next form, which is a multidimensional array. Take it easy, the multidimensional array concept is exactly the same as a one-dimensional array!
 
 ### Task:
+- :anchor:
 [[**Exercise 13 (Auto)**] Nearest Target](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-13.js)
 - :anchor:
 [[**Exercise 14**] Grouping Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-14.js)
