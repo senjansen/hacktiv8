@@ -29,7 +29,6 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Live Coding Rocket**] Richest Group Dynamic](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-4.js)
 
 ## Tuesday, 16 July 2019 - Numbers Crunching and Play with Strings
-Hari baru, tantangan baru! terus tantang diri kamu untuk mengahadapi tantangan baru minggu ini dan percayalah semuanya akan terbalaskan pada waktunya :smile:
 
 ### Task:
 - :anchor:
