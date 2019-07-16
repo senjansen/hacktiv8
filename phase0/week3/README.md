@@ -27,29 +27,27 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 Now, it's time for us to get acquainted with Array, a data type that is very useful for you in making structured data collection.
 
 ### Material & Reference:
-- :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
+- :notebook_with_decorative_cover: [Study Array Data Types](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-array.md)
 - :notebook_with_decorative_cover:
-[Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
+[Understanding String Data Types in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-string-reference.md)
 
 ### Task:
 - :anchor:
-[[**Exercises 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercises 2**] Tantangan Array 1 (Mengakses Nilai dalam Array)](modules/anchor-akses-array.md)
+[[**Exercise 2**] Array Challenge 1 (Accessing Value in Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-2.js)
 - :anchor:
-[[**Exercises 3**] Tantangan Array 2 (Melooping menggunakan Array)](modules/anchor-loop-array.md)
+[[**Exercise 3**] Array Challenge 2 (Looping Data Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-3.js)
 - :anchor:
-[[**Exercises 4**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](modules/anchor-mixed-array.md)
+[[**Exercise 4**] Array Challenge 3 (Use Built-in Function in Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-4.js)
 
 ## Wednesday, 10 July 2019 - Logic Challenges Refresh
-
-Gunakan waktu sejenak untuk berkenalan dengan Node Js,
-sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di server. Jadi, kamu bisa dengan mudah membuat kode JavaScript yang dapat berjalan di terminal kamu. Hari ini juga, kamu akan mencoba langsung mengimplementasi kodemu melalui node Js!
+Take a moment to get acquainted with Node.js, a platform that allows you to run JavaScript scripts on the server. So, you can easily create JavaScript code that can run in your terminal. Today, you will try to directly implement your code via Node.js!
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal Node JS](/modules/js-node.md)
-- :notebook_with_decorative_cover: [Membuat code JavaScript-mu dengan Baik ](modules/js-code-style.md)
+[Learn Node JS](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-node.md)
+- :notebook_with_decorative_cover: [Learn JavaScript Code Style dan Guide](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-code-style.md)
 
 ### Task:
 - :anchor:
@@ -57,8 +55,7 @@ sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di se
 - :anchor:
 [[**Exercise 6 (Auto)**] Palindrome Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-6.js)
 - :anchor:
-[[**Exercise 7 (Auto)**] Counting Words
-// Andreas Sosilo - Hacktiv8 B](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-7.js)
+[[**Exercise 7 (Auto)**] Counting Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-7.js)
 - :anchor:
 [[**Exercise 8 (Auto)**] The Biggest Number Combination](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-8.js)
 
