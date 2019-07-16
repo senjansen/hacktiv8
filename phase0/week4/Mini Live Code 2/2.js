@@ -33,26 +33,37 @@
 function changeWords (words) {
   for (let i = 0; i < words.length; i++) {
     for (let j = 0; j < words[i].length; j++) {
-      if (angkaPrima(i + j)) {
-        let temp = ''
-        for (let k = 0; k < words[i][j].length; k++) {
-          if (words[i][j][k] !== 'a' && words[i][j][k] !== 'e' && words[i][j][k] !== 'i' && words[i][j][k] !== 'o' && words[i][j][k] !== 'u') {
-            temp += words[i][j][k]
-          }
-        }
-        words[i][j] = temp
+      let sumIandJ = i + j
+      if (primeNumber(sumIandJ)) {
+        words[i][j] = removeVocals(words[i][j])
       }
-      if ((i + j) % 2 === 0) {
+      if (sumIandJ % 2 === 0) {
         // reverse the string in the array
         words[i][j] = reverseString(words[i][j])
-      }
-      if ((i + j) % 2 !== 0) {
+      } else {
         // to upper case
-        words[i][j] = words[i][j].toUpperCase()
+        words[i][j] = makeBigLetter(words[i][j])
       }
     }
   }
   return words
+}
+// Create function to remove vocals from a string input
+function removeVocals (str) {
+  let removeWord = 'aiueo'
+  let result = ''
+  for (let i = 0; i < str.length; i++) {
+    let isVocal = false
+    for (let j = 0; j < removeWord.length; j++) {
+      if (str[i] === removeWord[j]) {
+        isVocal = true
+      }
+    }
+    if (isVocal === false) {
+      result += str[i]
+    }
+  }
+  return result
 }
 // Create function to reverse string
 function reverseString (str) {
@@ -63,19 +74,23 @@ function reverseString (str) {
   return newString
 }
 // Create function to check prime number or not
-function angkaPrima (angka) {
-  if (angka === 1) {
+function primeNumber (num) {
+  if (num === 1) {
     return false
-  } else if (angka === 2) {
+  } else if (num === 2) {
     return true
   } else {
-    for (let divider = 2; divider < angka; divider++) {
-      if (angka % divider === 0) {
+    for (let divider = 2; divider < num; divider++) {
+      if (num % divider === 0) {
         return false
       }
     }
     return true
   }
+}
+// Create function to make string becoming upper case
+function makeBigLetter (str) {
+  return str.toUpperCase()
 }
 
 var words = [

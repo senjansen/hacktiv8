@@ -15,7 +15,7 @@
 */
 
 function formatUang (number) {
-  let money = 'Rp'
+  let money = ''
   // Change number to string
   number = number.toString()
   let numLength = number.length
@@ -26,8 +26,7 @@ function formatUang (number) {
       money += number[i]
     }
   }
-  money += ',00'
-  return money
+  return `Rp${money},00`
 }
 
 console.log(formatUang(7500)) // Rp7.500,00
