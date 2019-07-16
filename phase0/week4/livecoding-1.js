@@ -35,17 +35,19 @@
 
 PSEUDOCODE:
 -----------
-1. SET 'sum' to zero.
-2. FOR 'i' to length of 'stringNumber'.
-3. Set value of 'VVIP' seat class as 1000000, 'VIP' seat class as 700000 and 'Reguler' seat class as 300000.
-4. Check if 'cash' is equal or more than 'VVIP'. If true, buy 'VVIP' seat class.
-5. If not, check again if 'cash' is equal or more than 'VIP' value. If true, buy 'VIP' seat class.
-6. If not, check again if 'cash' is equal or more than 'Reguler' value. If true, buy 'Reguler' seat class.
-7. If user do not have enough 'cash' to buy ticket, display 'user will go home'.
-8. If user buy a ticket, subtract the cash with the ticket price.
-9. Store the subtraction value to 'moneyChange'
-10. Display the bought 'ticket' in this format [name]-[seatClass]-[moneyChange].
-
+FUNCTION 'sumTheNumber' with parameter 'stringNumber'
+  SET 'sum' to zero.
+  FOR each index of 'stringNumber' DO
+    Change type data string to number in current index of 'stringNumber'
+    IF current index 'i' modulus with 2 IS NOT EQUAL to 0 THEN
+      MULTIPLY the 'value' by 2 THEN
+      ADD the 'value' to 'sum'
+    ELSE
+      ADD the 'value' to 'sum'
+    ENDIF
+  ENDFOR
+  DISPLAY 'sum'
+ENDFUNCTION
 ================================================================
 */
 
