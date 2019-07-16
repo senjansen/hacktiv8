@@ -65,7 +65,9 @@ function sumTheNumber (stringNumber) {
   return sum
 }
 
+// console.time('Performance Test')
 console.log(sumTheNumber('123456')) // 33
+// console.timeEnd('Performance Test')
 console.log(sumTheNumber('341231')) // 21
 console.log(sumTheNumber('1')) // 1
 console.log(sumTheNumber('01')) // 2
