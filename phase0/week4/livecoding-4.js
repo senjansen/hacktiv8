@@ -56,7 +56,7 @@ function richestGroupDynamic (groups) {
     name.push(groups[i][0])
     name.push(1)
     totalVotes.push(name)
-    // Check the next persons in array
+    // 2nd loop : Check the next persons in the selected array
     for (let j = 1; j < groups[i].length; j++) {
       if (groups[i][j] === groups[i][j - 1]) {
         totalVotes[counter][1] += 1
@@ -68,7 +68,7 @@ function richestGroupDynamic (groups) {
         counter++
       }
     }
-    // Check the most riches person in the array
+    // 3rd loop : Check the most riches person in the selected array
     for (let k = 0; k < totalVotes.length; k++) {
       if (totalVotes[k][1] > mostVotes) {
         mostVotes = totalVotes[k][1]

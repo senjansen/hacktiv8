@@ -43,12 +43,12 @@ function americanGotTalent (votes) {
   let mostVotes = 0
   let status = false
 
-  // Sort input
+  // Sort input array
   votes = sorting(votes)
   // Define the first participant
-  participants.push(votes[0])
-  participants.push(1)
-  totalVotes.push(participants)
+  participants.push(votes[0]) // ['Arby']
+  participants.push(1) // ['Arby', 1]
+  totalVotes.push(participants) // [['Arby', 1]]
   // Check the next participants
   for (let i = 1; i < votes.length; i++) {
     if (votes[i] === votes[i - 1]) {
@@ -60,7 +60,9 @@ function americanGotTalent (votes) {
       totalVotes.push(participants)
       counter++
     }
-    // console.log(`i: ${i} and totalVotes: ${totalVotes}`)
+    // console.log(`i: ${i} and totalVotes: ${totalVotes}`);
+    // console.log(totalVotes);
+    // [['Arby', 1], ['Darren McFlurry', 1], ['Lee Min Ho', 2]]
   }
   // Check the winner's name & votes
   for (let j = 0; j < totalVotes.length; j++) {

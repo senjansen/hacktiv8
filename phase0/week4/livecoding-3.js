@@ -47,10 +47,11 @@
 function richestGroup (groups) {
   let counterA = 0
   let counterB = 0
-
+  // Check each array in multidimensional array
   for (let i = 0; i < groups.length; i++) {
     let countA = 0
     let countB = 0
+    // Check the total of A or B in the array
     for (let j = 0; j < groups[i].length; j++) {
       if (groups[i][j] === 'A') {
         countA++
@@ -58,13 +59,14 @@ function richestGroup (groups) {
         countB++
       }
     }
+    // Check if A's or B's counter is bigger in the array
     if (countA > countB) {
       counterA++
     } else if (countB > countA) {
       counterB++
     }
   }
-
+  // Return message according to the counter A & B value in the multidimensional array
   if (counterA > counterB) {
     return `Group A win...`
   } else if (counterB > counterA) {
