@@ -1,4 +1,4 @@
-// Exercise 5 - Palindrom
+// Exercise 5 - Palindrome
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to return true or false based on palindrom

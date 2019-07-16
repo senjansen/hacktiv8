@@ -1,4 +1,4 @@
-// Exercise 6 - Palindrom Number
+// Exercise 6 - Palindrome Number
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to return the next palindrom number

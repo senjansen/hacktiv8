@@ -1,4 +1,4 @@
-// Exercise 15 - Grouping Numbers
+// Exercise 15 - Grouping Animals
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 // Create function to group numbers in a multidimensional array
