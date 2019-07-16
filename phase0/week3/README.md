@@ -15,11 +15,11 @@ In this third week, we will train our understanding of logic and its implementat
 ### Task:
 Instruction was give in Slack channel and we were given 1 hour to solve the problem.
 - :anchor:
-[[**Live Coding 1**] Concert Ticket](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-1.js)
+[[**Live Coding Anchor 1**] Concert Ticket](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-1.js)
 - :anchor:
-[[**Live Coding 2**] Ironing Clothes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-2.js)
+[[**Live Coding Anchor 2**] Ironing Clothes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-2.js)
 - :anchor:
-[[**Live Coding 3**] Pyramid Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
+[[**Live Coding Anchor 3**] Pyramid Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
 - :rocket:
 [[**Live Coding Rocket**] Pyramid Number Extension](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
 
