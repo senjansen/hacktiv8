@@ -37,7 +37,7 @@
 
 function americanGotTalent (votes) {
   let totalVotes = []
-  let name = []
+  let participants = []
   let counter = 0
   let mostName = ''
   let mostVotes = 0
@@ -45,25 +45,24 @@ function americanGotTalent (votes) {
 
   // Sort input
   votes = sorting(votes)
-  // console.log(votes)
-  // Define the first
-  name.push(votes[0])
-  name.push(1)
-  totalVotes.push(name)
-
+  // Define the first participant
+  participants.push(votes[0])
+  participants.push(1)
+  totalVotes.push(participants)
+  // Check the next participants
   for (let i = 1; i < votes.length; i++) {
     if (votes[i] === votes[i - 1]) {
       totalVotes[counter][1] += 1
     } else {
-      name = []
-      name.push(votes[i])
-      name.push(1)
-      totalVotes.push(name)
+      participants = []
+      participants.push(votes[i])
+      participants.push(1)
+      totalVotes.push(participants)
       counter++
     }
     // console.log(`i: ${i} and totalVotes: ${totalVotes}`)
   }
-
+  // Check the winner's name & votes
   for (let i = 0; i < totalVotes.length; i++) {
     if (totalVotes[i][1] > mostVotes) {
       mostVotes = totalVotes[i][1]
@@ -73,14 +72,14 @@ function americanGotTalent (votes) {
       status = false
     }
   }
-
+  // Return message
   if (status) {
     return `Selamat juaranya ${mostName}, dengan total votes yang diterima ${mostVotes}`
   } else {
-    return 'Mohon maaf juara tidak bisa ditentukkan dalam minggu ini'
+    return 'Mohon maaf juara tidak bisa ditentukan dalam minggu ini'
   }
 }
-
+// Create function to sort an array input
 function sorting (arr) {
   let arrLength = arr.length
 
