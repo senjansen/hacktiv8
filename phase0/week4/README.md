@@ -11,7 +11,7 @@ In this fourth week, we will focus on honing our logic and programming by contin
 ---
 
 ## Monday, 15 July 2019 - Live Coding (Arrays, Looping, & Conditionals)
-It's time for us to do Live Coding which aims to test your abilities according to what you have learned and you have trained this week. Through this live coding, we will assess your understanding of JavaScript, and of course we will give feedback so you can improve which parts are still lacking.
+It's time to do live coding which aims to test your abilities according to what you have learned and you have trained this week. Through this live coding, we will assess your understanding of JavaScript, and of course we will give feedback so you can improve which parts are still lacking.
 
 ### Material & Reference
 - :notebook_with_decorative_cover:
