@@ -15,81 +15,75 @@ In this third week, we will train our understanding of logic and its implementat
 ### Task:
 Instruction was give in Slack channel and we were given 1 hour to solve the problem.
 - :anchor:
-[[**Live Coding 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-1.js)
+[[**Live Coding Anchor 1**] Concert Ticket](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-1.js)
 - :anchor:
-[[**Live Coding 2**] Tantangan Array 1 (Mengakses Nilai dalam Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-2.js)
+[[**Live Coding Anchor 2**] Ironing Clothes](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-2.js)
 - :anchor:
-[[**Live Coding 3**] Tantangan Array 2 (Melooping menggunakan Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
+[[**Live Coding Anchor 3**] Pyramid Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-3.js)
 - :rocket:
-[[**Live Coding 4**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
+[[**Live Coding Rocket**] Pyramid Number Extension](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/livecoding-4.js)
 
-## Tuesday, 09 July 2019 - Mengenal Tipe Data Array
-
-Sebelumnya, kita telah belajar berbagai macam tipe data yang kita tampung di variabel JavaScript dan kita bermain operasi dengannya, menggunakan conditional, bahkan hingga looping. Sekarang, saatnya kita berkenalan dengan Array, tipe data yang sangat berguna untukmu dalam membuat penampungan data yang terstruktur.
+## Tuesday, 09 July 2019 - Identify Array Data Types  
+Now, it's time for us to get acquainted with Array, a data type that is very useful for you in making structured data collection.
 
 ### Material & Reference:
-- :notebook_with_decorative_cover: [Mempelajari tipe data Array](modules/js-array.md)
+- :notebook_with_decorative_cover: [Study Array Data Types](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-array.md)
 - :notebook_with_decorative_cover:
-[Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
+[Understanding String Data Types in JavaScript](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-string-reference.md)
 
 ### Task:
 - :anchor:
-[[**Exercises 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://www.codecademy.com/learn/learn-javascript)
+[[**Exercise 1**] JavaScript Building Blocks: Codecademy JavaScript Course (Unit 4 - Arrays)](https://www.codecademy.com/learn/learn-javascript)
 - :anchor:
-[[**Exercises 2**] Tantangan Array 1 (Mengakses Nilai dalam Array)](modules/anchor-akses-array.md)
+[[**Exercise 2**] Array Challenge 1 (Accessing Value in Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-2.js)
 - :anchor:
-[[**Exercises 3**] Tantangan Array 2 (Melooping menggunakan Array)](modules/anchor-loop-array.md)
+[[**Exercise 3**] Array Challenge 2 (Looping Data Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-3.js)
 - :anchor:
-[[**Exercises 4**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](modules/anchor-mixed-array.md)
+[[**Exercise 4**] Array Challenge 3 (Use Built-in Function in Array)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-4.js)
 
 ## Wednesday, 10 July 2019 - Logic Challenges Refresh
-
-Gunakan waktu sejenak untuk berkenalan dengan Node Js,
-sebuah platform yang memungkinkan kamu untuk menjalankan script JavaScript di server. Jadi, kamu bisa dengan mudah membuat kode JavaScript yang dapat berjalan di terminal kamu. Hari ini juga, kamu akan mencoba langsung mengimplementasi kodemu melalui node Js!
+Take a moment to get acquainted with Node.js, a platform that allows you to run JavaScript scripts on the server. So, you can easily create JavaScript code that can run in your terminal. Today, you will try to directly implement your code via Node.js!
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal Node JS](/modules/js-node.md)
-- :notebook_with_decorative_cover: [Membuat code JavaScript-mu dengan Baik ](modules/js-code-style.md)
+[Learn Node JS](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-node.md)
+- :notebook_with_decorative_cover: [Learn JavaScript Code Style dan Guide](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-code-style.md)
 
 ### Task:
 - :anchor:
-[[**Exercises 5 (Auto)**] Palindrome](/modules/challenge-palindrome.md)
+[[**Exercise 5 (Auto)**] Palindrome](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-5.js)
 - :anchor:
-[[**Exercises 6 (Auto)**] Palindrome Angka](/modules/challenge-palindrome-angka.md)
+[[**Exercise 6 (Auto)**] Palindrome Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-6.js)
 - :anchor:
-[[**Exercises 7 (Auto)**] Hitung Jumlah Kata](/modules/challenge-hitung-jumlah-kata.md)
+[[**Exercise 7 (Auto)**] Counting Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-7.js)
 - :anchor:
-[[**Exercises 8 (Auto)**] Pasangan Angka Terbesar](/modules/challenge-pasangan-terbesar.md)
+[[**Exercise 8 (Auto)**] The Biggest Number Combination](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-8.js)
 
 ## Thursday, 11 July 2019 - More Logic Challenges
 
-Hari baru, tantangan baru. Setelah belajar tentang array and solve berbagai problem dengan arrays, saatnya perbanyak latihan dengan soal yang terus melatih logika!
-
 ### Task:
 - :anchor:
-[[**Exercises 9 (Auto)**] Cari Mean](/modules/challenge-cari-mean.md)
+[[**Exercise 9 (Auto)**] Looking for Mean](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-9.js)
 - :anchor:
-[[**Exercises 10 (Auto)**] Perkalian Unik](/modules/challenge-perkalian-unik.md)
+[[**Exercise 10 (Auto)**] Unique Multiplication](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-10.js)
 - :anchor:
-[[**Exercises 11 (Auto)**] Deret Aritmatika](/modules/challenge-deret-aritmatika.md)
+[[**Exercise 11 (Auto)**] Arithmetic Progression](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-11.js)
 - :anchor:
-[[**Exercises 12 (Auto)**] Deret Geometri](/modules/challenge-deret-geometri.md)
+[[**Exercise 12 (Auto)**] Geometry Progression](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-12.js)
 
 ## Friday, 12 July 2019 - More Arrays + Multidimensional Array
-
-Kamu telah mencoba berbagai macam soal, menggunakan array maupun tidak. Tentunya di saat ini kamu telah bisa menilai cara mana yang lebih baik menggunakan array, dan yang tidak perlu, bukan?
-
-Hari ini, kamu akan bermain dengan array dan bentuk selanjutnya, yaitu array multidimensi. Tenang saja, array multidimensi konsep nya sama persis dengan array satu dimensi!
+You will play with arrays and the next form, which is a multidimensional array. Take it easy, the multidimensional array concept is exactly the same as a one-dimensional array!
 
 ### Task:
-[[**Exercises 13 (Auto)**] Target Terdekat](/modules/challenge-target-terdekat.md)
 - :anchor:
-[[**Exercises 14**] Mengelompokkan Angka](modules/challenge-kelompok-angka.md)
+[[**Exercise 13 (Auto)**] Nearest Target](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-13.js)
 - :anchor:
-[[**Exercises 15**] Mengelompokkan Hewan](modules/challenge-kelompok-hewan.md)
+[[**Exercise 14**] Grouping Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-14.js)
+- :anchor:
+[[**Exercise 15**] Grouping Animals](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week3/exercise-15.js)
 
 ## Saturday, 13 July 2019 & Sunday, 14 July 2019
 
-- [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
-- [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week3/README.md)
