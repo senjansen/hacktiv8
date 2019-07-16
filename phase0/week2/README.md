@@ -25,7 +25,6 @@ First day on Week 2! Start a new week with new enthusiasm!
 Today we learn the JavaScript programming language. Let's get acquainted with JavaScript and immediately try the exercises!
 
 ### Material & Reference:
-
 - :wrench:
 [Repl, online tools for running JavaScript](https://repl.it/languages/javascript)
 - :notebook_with_decorative_cover:
@@ -45,7 +44,7 @@ Today we learn the JavaScript programming language. Let's get acquainted with Ja
 - :anchor:
 [[**Exercise 4**] Know the usage of conditional `switch-case` in JavaScript](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/exercise-4.js)
 
-## Wednesday, 03 July 2019 - Get to know the data type `String` and the concept of looping or iteration
+## Wednesday, 03 July 2019 - Data Type `String` & Concept of Looping or Iteration
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
