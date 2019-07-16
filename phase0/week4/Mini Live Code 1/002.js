@@ -1,18 +1,18 @@
-/* 
+/*
 =================
-StandBackTriangel
+StandBackTriangle
 =================
 
-Standback Triangel adalah program untuk mengegenerate Segitiga yang ujungnya mengarah ke kanan.
-dengan character huruf 'o' sebagai sisi nya 
+Standback Triangle adalah program untuk men-generate Segitiga yang ujungnya mengarah ke kanan.
+dengan character huruf 'o' sebagai sisi nya
 
 [INSTRUCTION]
-diberikan input berupa width , yaitu lebar segitiga. 
+diberikan input berupa width , yaitu lebar segitiga.
 
 [Example]
-jika width = 3 maka : 
+jika width = 3 maka :
 
-123 <-- width 
+123 <-- width
   o
  oo
 o o
@@ -24,38 +24,58 @@ o o
 - Dilarang menggunakan regex .match dan lainnya!
 - Dilarang menggunakan built in function .indexOf() dan .include()
 
-
 */
 
-function standBackTriangel(width) {
-   
-    // your code here 
-     
+function standBackTriangle (width) {
+  // Display the upper half
+  for (let i = width; i > 0; i--) {
+    let string = ''
+    for (let j = 0; j < width; j++) {
+      // 1st condition : j === width - 1
+      // 2nd condition :
+      if ((i - 1) === j || j === width - 1) {
+        string += 'o'
+      } else {
+        string += ' '
+      }
+    }
+    console.log(string)
+  }
+  // Display the lower half
+  for (let i = 1; i < width; i++) {
+    let string = ''
+    for (let j = 0; j < width; j++) {
+      if (i === j || j === width - 1) {
+        string += 'o'
+      } else {
+        string += ' '
+      }
+    }
+    console.log(string)
+  }
 }
- 
- standBackTriangel( 3 )
- standBackTriangel( 5 )
- 
- /*
+
+standBackTriangle(3)
+standBackTriangle(5)
+
+/*
  input:5
-  
-     o 
-    oo 
-   o o 
-  o  o 
- o   o 
-  o  o 
-   o o 
-    oo 
-     o 
- 
+
+     o
+    oo
+   o o
+  o  o
+ o   o
+  o  o
+   o o
+    oo
+     o
+
  input:3
- 
-   o 
-  oo 
- o o 
-  oo 
-   o 
- 
- 
+
+   o
+  oo
+ o o
+  oo
+   o
  */
