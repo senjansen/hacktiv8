@@ -11,51 +11,49 @@ In this fourth week, we will focus on honing our logic and programming by contin
 ---
 
 ## Monday, 15 July 2019 - Live Coding (Arrays, Looping, & Conditionals)
-
-Tiba saatnya kita melakukan Live Coding yang bertujuan untuk menguji kemampuanmu sesuai dengan yang telah kamu pelajari dan kamu latih di pekan ini. Melalui live coding ini kami akan menilai pengertian kamu selama ini tentang JavaScript, dan tentunya kami akan memberikan feedback agar kamu bisa meningkatkan bagian mana yang masih kurang. Sesi live coding ini, tidak seperti tantangan-tantangan di hari-hari sebelumnya. **Kamu tidak bisa mengulang atau memperbaiki apa yang telah kamu kerjakan di sesi live coding.** Sesi live coding tidak dibuat untuk membuatmu gagal, namun untuk memastikan apakah kamu telah terlatih dengan soal-soal coderbyte sebelumnya. Gagal di sesi live coding tidak mutlak membuatmu gagal di Phase 0, namun akan mempengaruhi keputusan instruktur untuk bisa melanjutkanmu ke Phase 1.
+It's time for us to do Live Coding which aims to test your abilities according to what you have learned and you have trained this week. Through this live coding, we will assess your understanding of JavaScript, and of course we will give feedback so you can improve which parts are still lacking.
 
 ### Material & Reference
 - :notebook_with_decorative_cover:
-[Materi Object Literal](/modules/js-object-literal.md)
+[Object Literal](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/js-object-literal.md)
 
 ### Task:
 Instruction was give in Slack channel and we were given 1 hour to solve the problem.
 - :anchor:
-[[**Live Coding 1**] Sum The Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-1.js)
+[[**Live Coding Anchor 1**] Sum The Number](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-1.js)
 - :anchor:
-[[**Live Coding 2**] American Got Talent](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-2.js)
+[[**Live Coding Anchor 2**] American Got Talent](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-2.js)
 - :anchor:
-[[**Live Coding 3**] Richest Group](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-3.js)
+[[**Live Coding Anchor 3**] Richest Group](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-3.js)
 - :rocket:
-[[**Live Coding 4**] Richest Group Dynamic](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-4.js)
+[[**Live Coding Rocket**] Richest Group Dynamic](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-4.js)
 
 ## Tuesday, 16 July 2019 - Numbers Crunching and Play with Strings
 Hari baru, tantangan baru! terus tantang diri kamu untuk mengahadapi tantangan baru minggu ini dan percayalah semuanya akan terbalaskan pada waktunya :smile:
 
 ### Task:
 - :anchor:
-[[**Exercise 1**] Angka Prima](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-1.js)
+[[**Exercise 1**] Prime Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-1.js)
 - :anchor:
-[[**Exercise 2**] Faktor Persekutuan Terbesar](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-2.js)
+[[**Exercise 2**] Greatest Common Divisor](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-2.js)
 - :anchor:
-[[**Exercise 3**] Cari Median](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-3.js)
+[[**Exercise 3**] Looking for Median](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-3.js)
 - :anchor:
-[[**Exercise 4**] Cari Modus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-4.js)
+[[**Exercise 4**] Looking for Modus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-4.js)
 - :anchor:
-[[**Exercise 5**] Ubah Huruf](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-5.js)
+[[**Exercise 5**] Change Alphabet](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-5.js)
 
 ## Wednesday, 17 July 2019 - Built-in Functions Mastery
-Hari ketiga di pekan keempat. Keep up the good work! Banyak tantangan menunggu seminggu ke depan :cool:
 
 ### Task:
 - :anchor:
-[[**Exercise 6**] Digit Perkalian Minimum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-6.js)
+[[**Exercise 6**] Minimum Digit of Multiplication](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-6.js)
 - :anchor:
-[[**Exercise 7**] Urutkan Abjad](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-7.js)
+[[**Exercise 7**] Sorting Alphabet](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-7.js)
 - :anchor:
-[[**Exercise 8**] Tukar Ukuran](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-8.js)
+[[**Exercise 8**] Change Upper Lower Case in String](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-8.js)
 - :anchor:
-[[**Exercise 9**] Cek AB](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-9.js)
+[[**Exercise 9**] Check AB](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-9.js)
 
 ## Thursday, 18 July 2019 - Object Literal
 Lanjutkan perjuanganmu di tengah banyaknya tantangan yang diberikan di pekan ke empat.
