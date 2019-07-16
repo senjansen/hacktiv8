@@ -63,12 +63,12 @@ function americanGotTalent (votes) {
     // console.log(`i: ${i} and totalVotes: ${totalVotes}`)
   }
   // Check the winner's name & votes
-  for (let i = 0; i < totalVotes.length; i++) {
-    if (totalVotes[i][1] > mostVotes) {
-      mostVotes = totalVotes[i][1]
-      mostName = totalVotes[i][0]
+  for (let j = 0; j < totalVotes.length; j++) {
+    if (totalVotes[j][1] > mostVotes) {
+      mostVotes = totalVotes[j][1]
+      mostName = totalVotes[j][0]
       status = true
-    } else if (totalVotes[i][1] === mostVotes) {
+    } else if (totalVotes[j][1] === mostVotes) {
       status = false
     }
   }
