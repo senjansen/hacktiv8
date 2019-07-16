@@ -42,10 +42,10 @@ Hari baru, tantangan baru! terus tantang diri kamu untuk mengahadapi tantangan b
 [[**Exercise 4**] Looking for Modus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-4.js)
 - :anchor:
 [[**Exercise 5**] Change Alphabet](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-5.js)
-- [[**Mini Live Coding 1**] Point Calculator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%201/001.js)
-- [[**Mini Live Coding 2**] Standback Triangle](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%201/002.js)
-- [[**Mini Live Coding 3**] Money Format](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%202/1.js)
-- [[**Mini Live Coding 4**] Change Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%202/2.js)
+- 💪 [[**Mini Live Coding 1**] Point Calculator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%201/001.js)
+- 💪 [[**Mini Live Coding 2**] Standback Triangle](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%201/002.js)
+- 💪 [[**Mini Live Coding 3**] Money Format](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%202/1.js)
+- 💪 [[**Mini Live Coding 4**] Change Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%202/2.js)
 
 ## Wednesday, 17 July 2019 - Built-in Functions Mastery
 
