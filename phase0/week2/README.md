@@ -92,18 +92,7 @@ It is time for us to go into the discussion of how the flow and algorithms are v
 - :notebook_with_decorative_cover:
 [Memahami Tipe Data String pada JavaScript](modules/js-string-reference.md)
 
-Tugas : -->
-
-<!-- - :anchor: [[**Exercises 12**] Tantangan Array 1 (Mengakses Nilai dalam Array)](modules/anchor-akses-array.md)
-- :anchor: [[**Exercises 13**] Tantangan Array 2 (Melooping menggunakan Array)](modules/anchor-loop-array.md)
-- :anchor: [[**Exercises 14**] Tantangan Array 3 (Array Join, Split, Slice, Splice, Sort)](modules/anchor-mixed-array.md) -->
-
-<!-- ## Jumat - Your First JavaScript App!
-Tibalah di akhir minggu. Kamu telah mengenal berbagai macam sintaks JavaScript dari hari pertama hingga hari ini. Sekarang saatnya tunjukkan kemampuan yang telah kamu dapatkan dengan membuat sebuah aplikasi sederhana yang akan ditampilkan di console. JSBin tetap menjadi teman terbaikmu hari ini.
-
 - :anchor: [[**Exercises 16**] WEEKLY PROJECT - Simple JavaScript App](modules/js-application.md) -->
-<!-- - :anchor:
-[[**Exercises 15**] JavaScript Building Blocks: Codecademy JavaScript Course (Hanya sampai Unit 5 - Functions and Scope)](https://www.codecademy.com/learn/learn-javascript) -->
 
 ## Saturday, 06 July 2019 & Sunday, 07 July 2019
 
