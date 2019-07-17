@@ -11,8 +11,8 @@
 
 // Contoh 1
 // Mengakses data dalam array (coba)
-function example1(artists) {
-  return artists[artists.length - 1];
+function example1 (artists) {
+  return artists[artists.length - 1]
 }
 
 var names = ['Ari', 'Lasso', 'Titi', 'DJ']
@@ -23,14 +23,14 @@ var names = ['Ari', 'Lasso', 'Titi', 'DJ']
 // Contoh 2
 // Membuat kondisional dalam array dan looping
 // Mencari string mana dalam suatu array yang paling panjang stringnya
-function example2(artists) {
+function example2 (artists) {
   var longestName = artists[0]
   for (var i = 1; i < artists.length; i++) {
     if (artists[i].length > longestName.length) {
       longestName = artists[i]
     }
   }
-  return longestName;
+  return longestName
 }
 
 // console.log('Contoh 2:', example2(['Ari', 'Lasso', 'Titi', 'DJ']));
@@ -56,14 +56,14 @@ function example2(artists) {
 //   return result;
 // }
 
-function example3(artists) {
+function example3 (artists) {
   var i = 0
   while (i < artists.length) {
     var containsA = false
     for (var j = 0; j < artists[i].length; j++) {
       if (artists[i][j].toLowerCase() === 'a') {
         containsA = true
-        break;
+        break
       }
     }
     if (containsA === true) {
@@ -72,7 +72,7 @@ function example3(artists) {
       i++
     }
   }
-  return artists;
+  return artists
 }
 
 // console.log('Contoh 3:', example3(['Aria', 'Lasso', 'Titi', 'DJ']));
@@ -80,12 +80,12 @@ function example3(artists) {
 
 // Contoh 4
 // Mengakses data dalam multidimensi array
-function example4(artists) {
+function example4 (artists) {
   var lastNames = []
   for (var i = 0; i < artists.length; i++) {
     lastNames.push(artists[i][artists[i].length - 1])
   }
-  return lastNames;
+  return lastNames
 }
 
 // console.log('Contoh 4:', example4([['Ari', 'Lasso'], ['Titi', 'DJ']]));
@@ -106,9 +106,8 @@ function example4(artists) {
 //   return result;
 // }
 
-
 // kalau array dia reference, kalau string tidak
-function example5(artists) {
+function example5 (artists) {
   var result = []
   // var namaSementara = ''
   var namaSementara = []
@@ -118,13 +117,13 @@ function example5(artists) {
     result.push(namaSementara)
     result.push(namaSementara.slice())
   }
-  return result;
+  return result
 }
 
 // 0 ['Ari'] ===== ['Ari']
 // 1 ['Ari', 'Lasso']  ==== ['Ari', 'AriLasso']
 
-console.log('Contoh 5:', example5(['Ari', 'Lasso', 'Titi', 'DJ']));
+console.log('Contoh 5:', example5(['Ari', 'Lasso', 'Titi', 'DJ']))
 
 // [
 //   ['Ari'],

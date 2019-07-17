@@ -1,19 +1,20 @@
 /*
   Poin-poin yang wajib dikuasai adalah:
-  1. cara mendeklarasikan object, cara membuat properties serta valuenya
-  2. cara mengakses data di object
-  3. cara melooping object
-  4. mengubah dari array ke object
+  1. Cara mendeklarasikan object, cara membuat properties serta valuenya
+  2. Cara mengakses data di object
+  3. Cara melooping object
+  4. Mengubah dari array ke object
   5. Object.keys dan Object.values
+
   Latihan:
-  1. cara membuat object literal
-  2. cara memasukkan kumpulan array menjadi object
-  3. cara membuat array menjadi unik
+  1. Cara membuat object literal
+  2. Cara memasukkan kumpulan array menjadi object
+  3. Cara membuat array menjadi unik
 */
 
 // 1. membuat object literal (3 times)
 
-function createObjectLiteral(name, batch, hobbies) {
+function createObjectLiteral (name, batch, hobbies) {
 
 }
 
@@ -58,7 +59,7 @@ var hogwarts = {
 
 // 4. mengubah dari array ke object (5 times)
 
-function changeArrayToObject(array) {
+function changeArrayToObject (array) {
 
 }
 
@@ -80,5 +81,5 @@ function changeArrayToObject(array) {
 //   ['slytherin', 28]
 // ]))
 
-// 5. bonus Object.keys dan Object.values 
+// 5. bonus Object.keys dan Object.values
 // ubah hogwarts ke dalam bentuk array properties/keysnya dan array bentuk valuesnya

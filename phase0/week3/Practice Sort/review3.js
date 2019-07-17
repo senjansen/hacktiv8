@@ -1,10 +1,10 @@
 // TEST LATIHAN 2
 
-function manualSort() {
-  
+function manualSort () {
+
 }
 
-console.log(manualSort([[3, 4, 2], [5, 1, 6, 7]]));
+console.log(manualSort([[3, 4, 2], [5, 1, 6, 7]]))
 /*
   [
     [2, 3, 4],
