@@ -29,7 +29,6 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Live Coding Rocket**] Richest Group Dynamic](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/livecoding-4.js)
 
 ## Tuesday, 16 July 2019 - Numbers Crunching and Play with Strings
-
 ### Task:
 - :anchor:
 [[**Exercise 1**] Prime Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-1.js)
@@ -47,7 +46,6 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 - 💪 [[**Mini Live Coding 4**] Change Words](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%202/2.js)
 
 ## Wednesday, 17 July 2019 - Built-in Functions Mastery
-
 ### Task:
 - :anchor:
 [[**Exercise 6**] Minimum Digit of Multiplication](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-6.js)
@@ -57,27 +55,29 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Exercise 8**] Change Upper Lower Case in String](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-8.js)
 - :anchor:
 [[**Exercise 9**] Check AB](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-9.js)
+- 💪 [[**Mini Live Coding 5**] Guild Raid Filter](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%203/1.js)
+- 💪 [[**Mini Live Coding 6**] Data Adjustment](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%203/2.js)
+- 💪 [[**Mini Live Coding 7**] Pair Project](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/001.js)
+- 💪 [[**Mini Live Coding 8**] Print Branch](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/002.js)
 
 ## Thursday, 18 July 2019 - Object Literal
-Lanjutkan perjuanganmu di tengah banyaknya tantangan yang diberikan di pekan ke empat.
-
 ### Task:
 - :anchor:
-[[**Exercise 10**] Change me](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-10.js)
+[[**Exercise 10**] Change me!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-10.js)
 - :anchor:
 [[**Exercise 11**] Shopping Time!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-11.js)
 - :anchor:
-[[**Exercise 12**] Toko X](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-12.js)
+[[**Exercise 12**] X Shop](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-12.js)
 
 
 ## Friday, 19 July 2019 - Mastered Array and Object
 ### Task:
 - :anchor: [[**Exercise 13**] Deep Sum](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-13.js)
-- :anchor: [[**Exercise 14**] Naik Angkot](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-14.js)
+- :anchor: [[**Exercise 14**] Using Bus](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-14.js)
 - :anchor: [[**Exercise 15**] Highest Score](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-15.js)
 - :anchor: [[**Exercise 16**] Graduates](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-16.js)
 
 ## Saturday, 20 July 2019 & Sunday, 21 July 2019
-
-- [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
-- [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week4/README.md)
