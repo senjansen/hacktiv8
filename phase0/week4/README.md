@@ -68,7 +68,12 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 [[**Exercise 11**] Shopping Time!](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-11.js)
 - :anchor:
 [[**Exercise 12**] X Shop](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/exercise-12.js)
-
+- 💪 [[**Mini Live Coding 9**] Even Median Function](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%205/1.js)
+- 💪 [[**Mini Live Coding 10**] Data Adjustment](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%203/2.js)
+- 💪 [[**Mini Live Coding 11**] Pair Project](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/001.js)
+- 💪 [[**Mini Live Coding 12**] Print Branch](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/002.js)
+- 💪 [[**Mini Live Coding 13**] Pair Project](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/001.js)
+- 💪 [[**Mini Live Coding 14**] Print Branch](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week4/Mini%20Live%20Code%204/002.js)
 
 ## Friday, 19 July 2019 - Mastered Array and Object
 ### Task:
