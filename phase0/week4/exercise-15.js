@@ -3,21 +3,18 @@
 
 // Create function to display the best student with the highest score from each class
 function highestScore (students) {
-  let bestStudent = {}
+  let res = {}
 
   for (let i = 0; i < students.length; i++) {
-    if (bestStudent[students[i].class] === undefined) {
-      bestStudent[students[i].class] = { name: students[i].name, score: students[i].score }
-      // console.log(bestStudent)
-    } else {
-      if (bestStudent[students[i].class].score < students[i].score) {
-        bestStudent[students[i].class].name = students[i].name
-        bestStudent[students[i].class].score = students[i].score
-      }
-      // console.log(bestStudent)
+    let tempName = students[i].name
+    let tempScore = students[i].score
+    let tempClass = students[i].class
+    if (!res[tempClass] || tempScore > res[tempClass].score) {
+      res[tempClass] = { name: tempName, score: tempScore }
+      // console.log(res)
     }
   }
-  return bestStudent
+  return res
 }
 
 // TEST CASE
