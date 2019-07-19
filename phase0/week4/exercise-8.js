@@ -5,7 +5,7 @@
 function tukarBesarKecil (kalimat) {
   let swap = kalimat.split('')
   // Check ASCII for each character
-  for (let counter = 0; counter < kalimat.length; counter++) {
+  for (let counter = 0; counter < swap.length; counter++) {
     if (swap[counter].charCodeAt() >= 65 && swap[counter].charCodeAt() <= 90) {
       swap[counter] = swap[counter].toLowerCase()
     } else if (swap[counter].charCodeAt() >= 97 && swap[counter].charCodeAt() <= 122) {
