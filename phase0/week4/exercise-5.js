@@ -3,13 +3,12 @@
 
 // Create function to change alphabet with the next aplhabet
 function ubahHuruf (kata) {
-  let kataLength = kata.length
-  let asciiValue = 0
   let newKata = ''
-
-  for (let counter = 0; counter < kataLength; counter++) {
-    asciiValue = Number(kata.charCodeAt(counter))
+  // Change each character to ASCII number and add 1, after that change back to character
+  for (let counter = 0; counter < kata.length; counter++) {
+    let asciiValue = Number(kata.charCodeAt(counter))
     asciiValue++
+    // Add the new character to the new string
     newKata += String.fromCharCode(asciiValue)
   }
   return newKata
