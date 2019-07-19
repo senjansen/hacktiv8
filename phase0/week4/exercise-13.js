@@ -3,12 +3,18 @@
 
 // Create function to calculate sum of integers in multidimensional array
 function deepSum (arr) {
-  const arrSum = array => array.reduce((sum, num) => sum + (Array.isArray(num) ? arrSum(num) : num * 1), 0)
-  if (arrSum(arr) === 0) {
+  if (!arr.length) {
     return 'No number'
-  } else {
-    return arrSum(arr)
   }
+  let sum = 0
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      for (let k = 0; k < arr[i][j].length; k++) {
+        sum += arr[i][j][k]
+      }
+    }
+  }
+  return sum
 }
 
 // TEST CASE
@@ -52,3 +58,13 @@ console.log(deepSum([
 ])) // 156
 
 console.log(deepSum([])) // No number
+
+// Shortest Solution
+/* function deepSum (arr) {
+  const arrSum = array => array.reduce((sum, num) => sum + (Array.isArray(num) ? arrSum(num) : num * 1), 0)
+  if (!arrSum(arr)) {
+    return 'No number'
+  } else {
+    return arrSum(arr)
+  }
+} */
