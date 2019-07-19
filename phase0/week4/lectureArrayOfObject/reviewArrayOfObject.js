@@ -12,7 +12,7 @@ Outline yang wajib dikuasai student:
 // - pemenang akhir adalah player yang menang di paling banyak ronde
 // - jika ada lebih dari satu pemain dengan jumlah kemenangan yang sama, maka ambil pemain dengan total skor tertinggi sebagai pemenang
 
-function convertPeopleArrayToObject(people) {
+function convertPeopleArrayToObject (people) {
   var output = []
   for (var i = 0; i < people.length; i++) {
     var round = people[i]
@@ -32,8 +32,7 @@ function convertPeopleArrayToObject(people) {
   return output
 }
 
-
-function getWinner(object) {
+function getWinner (object) {
   var highestScore = 0
   var winner = ''
   let draw = false
@@ -50,13 +49,13 @@ function getWinner(object) {
   }
   if (draw) {
     return null
-  } 
-  return {winner: winner, score: highestScore}
+  }
+  return { winner: winner, score: highestScore }
 }
 
 // console.log(getWinner({ A: 150, B: 150, C: 170 }))
 
-function finalWinner(game) {
+function finalWinner (game) {
   var scorePerRounds = convertPeopleArrayToObject(game)
 
   console.log(scorePerRounds)
@@ -97,7 +96,7 @@ function finalWinner(game) {
 
   for (name in winningCounts) {
     if (winningCounts[name].count === maxWin) {
-      winners.push({name: name, score: winningCounts[name].score})
+      winners.push({ name: name, score: winningCounts[name].score })
     }
   }
 
@@ -116,7 +115,7 @@ function finalWinner(game) {
   }
 
   return winner
- }
+}
 
 console.log(finalWinner([
   [['A', 60], ['B', 90], ['C', 120], ['A', 90]],
