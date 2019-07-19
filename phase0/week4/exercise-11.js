@@ -23,10 +23,7 @@ function shoppingTime (memberId, money) {
   // Find cheapest product from the sale list
   let cheapest = null
   for (let key in sale) {
-    if (cheapest === null) {
-      cheapest = sale[key]
-    }
-    if (sale[key] < cheapest) {
+    if (!cheapest || sale[key] < cheapest) {
       cheapest = sale[key]
     }
   }
