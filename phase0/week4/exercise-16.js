@@ -7,7 +7,7 @@ function graduates (students) {
 
   for (let i = 0; i < students.length; i++) {
     if (students[i].score > 75) {
-      if (graduateList[students[i].class] === undefined) {
+      if (!graduateList[students[i].class]) {
         graduateList[students[i].class] = [{ name: students[i].name, score: students[i].score }]
       } else {
         graduateList[students[i].class].push({ name: students[i].name, score: students[i].score })
