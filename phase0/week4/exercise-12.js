@@ -7,10 +7,10 @@ function countProfit (shoppers) {
     ['Baju Zoro', 500000, 2],
     ['Sweater Uniklooh', 175000, 1]
   ]
-
+  // Create new array to store the profit of each items
   let result = []
 
-  if (!result) {
+  if (!shoppers.length) {
     return result
   } else {
     // Adding object properties
@@ -21,7 +21,6 @@ function countProfit (shoppers) {
         leftOver: listBarang[i][2],
         totalProfit: 0
       }
-
       // Calculate profit and check leftover
       for (let j = 0; j < shoppers.length; j++) {
         if (calculate.product === shoppers[j].product && calculate.leftOver >= shoppers[j].amount) {
