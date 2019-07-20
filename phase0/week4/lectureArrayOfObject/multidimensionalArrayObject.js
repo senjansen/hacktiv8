@@ -78,6 +78,7 @@ function nextYear (person) {
 
 function getSalaryMoreThan (person, salary) {
   let result = []
+  // Check each personel salary that has same or bigger salary than requested
   for (let i = 0; i < person.length; i++) {
     if (person[i].salary >= salary) {
       result.push(person[i])
@@ -88,6 +89,7 @@ function getSalaryMoreThan (person, salary) {
 
 function hasJavaScriptFrontEnd (person) {
   let result = []
+  // Find personel with skills of javascript only
   for (let i = 0; i < person.length; i++) {
     if (person[i].skills !== undefined) {
       if (person[i].skills.frontend !== undefined) {
