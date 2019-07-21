@@ -15,7 +15,7 @@ function createObject (person) {
   }
 }
 
-// console.log(createObject(['Andreas', 'Batch 34 - Humble Fox', ['Reading', 'Cycling']]))
+console.log(createObject(['Andreas', 'Batch 34 - Humble Fox', ['Reading', 'Cycling']]))
 
 // 2. Memasukkan array ke dalam object
 // Urutannya [NAME, CLUB, AGE]
