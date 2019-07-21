@@ -21,7 +21,7 @@ function guildRaidFilter (members, req) {
       // Do another loop to check the required job
       for (let j = 0; j < req.jobs.length; j++) {
         // Check if there is property job in the member and pass the required job
-        if (members[i].job === req.jobs[j]) {
+        if (members[i].job && members[i].job === req.jobs[j]) {
           result.push(members[i])
         }
       }
