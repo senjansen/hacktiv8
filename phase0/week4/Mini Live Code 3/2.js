@@ -11,7 +11,21 @@ Sangat mudah bukan?
 */
 
 function dataAdjustment (array) {
-  // YOUR CODE HERE
+  // Create new array to accomodate the object
+  let result = []
+  // Get the current year using Date.getFullYear()
+  let today = new Date()
+  let date = today.getFullYear()
+  // Do looping to re-adjust data from array to object
+  for (let i = 0; i < array.length; i++) {
+    let person = {}
+    person.name = array[i][0]
+    person.age = date - array[i][1]
+    person.gender = array[i][2]
+    person.skill = array[i][3]
+    result.push(person)
+  }
+  return result
 }
 
 console.log(dataAdjustment([
@@ -19,9 +33,8 @@ console.log(dataAdjustment([
   ['Rama', 1991, 'Male', 'Stand up Comedy'],
   ['Icha', 1991, 'Male', 'Soul Cleansing'],
   ['Hardim', 1991, 'Male', 'Ban Pokemon Go Player'],
-  ['Isro', 1991, 'Male', 'Making Awtian Creating This Problem'],
+  ['Isro', 1991, 'Male', 'Making Awtian Creating This Problem']
 ]))
-
 
 // [ { name: 'Wika', age: 28, gender: 'Male', skill: 'Water Bender' },
 //   { name: 'Rama',
