@@ -15,12 +15,14 @@
 */
 
 function formatUang (number) {
+  // Create new variable for result
   let money = ''
   // Change number to string
   number = number.toString()
-  let numLength = number.length
-  for (let i = 0; i < numLength; i++) {
-    if ((numLength - i) % 3 === 0 && i !== 0) {
+  // Do looping from front
+  for (let i = 0; i < number.length; i++) {
+    // If (number.length - i) % 3, add '.' in front of current index string
+    if ((number.length - i) % 3 === 0 && i !== 0) {
       money = money + '.' + number[i]
     } else {
       money += number[i]
