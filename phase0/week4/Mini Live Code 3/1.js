@@ -12,7 +12,22 @@ bisa diajak raid dengan ketentuan memiliki power diatas requirement dan juga job
  */
 
 function guildRaidFilter (members, req) {
-  // YOUR CODE HERE
+  // Create array to accomodate the result
+  let result = []
+  // Do for-loop to check each guild member if they pass the criteria or not
+  for (let i = 0; i < members.length; i++) {
+    // Check if there is property power in the member and pass the required power
+    if (members[i].power && members[i].power >= req.power) {
+      // Do another loop to check the required job
+      for (let j = 0; j < req.jobs.length; j++) {
+        // Check if there is property job in the member and pass the required job
+        if (members[i].job === req.jobs[j]) {
+          result.push(members[i])
+        }
+      }
+    }
+  }
+  return result
 }
 var guild =
 [
