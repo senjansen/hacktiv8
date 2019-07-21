@@ -1,6 +1,6 @@
 var pokemon = [
   {
-    name: 'bulbasaur',
+    name: 'Bulbasaur',
     type: [
       'grass',
       'poison'
@@ -11,21 +11,21 @@ var pokemon = [
     ],
     level: 15,
     evolutionLine: [
-      // {
-      //   name: 'Ivysaur',
-      //   level: 16
-      // },
+      {
+        name: 'Ivysaur',
+        level: 16
+      },
       {
         name: 'Venusaur',
         level: 32
-      },
+      }
     ]
   },
   {
     name: 'Charizard',
     type: [
       'flying',
-      'fire',
+      'fire'
     ],
     isShiny: false,
     abilities: [
@@ -36,7 +36,7 @@ var pokemon = [
   {
     name: 'Charmander',
     type: [
-      'fire',
+      'fire'
     ],
     isShiny: false,
     abilities: [
@@ -56,39 +56,39 @@ var pokemon = [
   }
 ]
 
-
-function call(arr) {
+function call (arr) {
   var result = []
-  
-  // Manggil yang levelnya dibawah 10
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i].level < 10) {
-      result.push(arr[i])
-    }
-  }
 
-  // Manggil yang typenya 'fire'
-  // for(var i = 0; i < arr.length; i++) {
-  //   for(var j = 0 ; j < arr[i].type.length; j++) {
-  //     if(arr[i].type[j] === 'fire') {
-  //       result.push(arr[i])
-  //     }
+  // // Manggil yang levelnya dibawah 10
+  // for (var i = 0; i < arr.length; i++) {
+  //   if (arr[i].level < 10) {
+  //     result.push(arr[i])
   //   }
   // }
+
+  // Manggil yang typenya 'fire'
+  for (var i = 0; i < arr.length; i++) {
+    for (var j = 0; j < arr[i].type.length; j++) {
+      if (arr[i].type[j] === 'fire') {
+        result.push(arr[i])
+      }
+    }
+  }
 
   return result
 }
 
-function train(arr) {
+// console.log(call(pokemon))
+
+function train (arr) {
   var result = []
   for (var i = 0; i < arr.length; i++) {
     arr[i].level += 1
   }
   return arr
 }
-train(pokemon)
 
-function evolve(arr) {
+function evolve (arr) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i].evolutionLine !== undefined && arr[i].level === arr[i].evolutionLine[0].level) {
       arr[i].name = arr[i].evolutionLine[0].name
@@ -96,3 +96,7 @@ function evolve(arr) {
   }
   return arr
 }
+
+train(pokemon)
+evolve(pokemon) // evolve Bulbasaur to Ivysaur
+console.log(pokemon)
