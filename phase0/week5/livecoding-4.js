@@ -46,12 +46,8 @@ function rememberMe (lyrics) {
       }
     }
   }
-  // If all the alphabet is already empty, return 'completed'
-  if (word.length === 0) {
-    return `completed`
-  } else { // If not, return the remaining word in a string
-    return join(word)
-  }
+  // If all the alphabet is already empty, return 'completed'. If not, return the remaining word in a string
+  return word.length === 0 ? `completed` : join(word)
 }
 
 function splice (arr, start, remove, ...rest) {
@@ -80,7 +76,6 @@ function join (arr) {
   let string = ''
   for (let i = 0; i < arr.length; i++) {
     string += arr[i]
-    console.log('string : ' + string)
   }
   return string
 }
