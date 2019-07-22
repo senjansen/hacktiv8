@@ -2,51 +2,17 @@
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
-  /////////////////
-  americanGotTalent
-  /////////////////
-  Function americanGotTalent akan menentukan juara serta jumlah votingnya dari suatu array.
-  Function akan menerima 1 parameter yaitu:
-    - votes adalah kumpulan string nama, tipe datanya array.
-  Function ini akan mengembalikkan nilai string dalam format:
-    - Apabila terdapat juara: "Selamat juaranya adalah [nama], dengan total votes yang diterima [totalVotes]".
-    - Apabila tidak terdapat juara: "Mohon maaf juara tidak bisa ditentukkan dalam minggu ini".
-
-  ----------
-  EXAMPLE 1:
-  ----------
-  [INPUT]
-    var votes = ['Lee Min Ho', 'Arby', 'Darren McFlurry', 'Lee Min Ho'];
-  [PROCESS]
-    terdapat 2 voting Lee Min Ho yang paling banyak.
-  [OUTPUT]
-    Selamat juaranya adalah Lee Min Ho, dengan total votes yang diterima 2.
-  ----------
-  EXAMPLE 2:
-  ----------
-  [INPUT]
-    var votes = ['Lee Min Ho', 'Arby', 'Arby', 'Lee Min Ho'];
-  [PROCESS]
-    tidak terdapat yang terbanyak.
-  [OUTPUT]
-    Mohon maaf juara tidak bisa ditentukkan dalam minggu ini
-
-  [RULES]
-    1. Dilarang menggunakan built in function apapun kecuali .push(), .pop(), .shift() dan .unshift()
-*/
-
-/*
 ========
 warOfFun
 ========
 [INSTRUCTIONS]
 warOfFun adalah sebuat fungsi yang menerima parameter berupa string dan
-akan mengembalikkan nilai string yang merupakan pemenang perlombaan.
+akan mengembalikan nilai string yang merupakan pemenang perlombaan.
 [EXAMPLE]
 INPUT: [
   ['andre', 'toni', 'toti'],
   ['risk', 'fun', 'go'],
-  ['humble', 'psyhco', 'strong']
+  ['humble', 'psycho', 'strong']
 ]
 PROCESS:
 1. array[0] akan berisi nama-nama pemain
@@ -63,29 +29,40 @@ OUTPUT: pemenangnya adalah toni
 */
 
 function warOfFun (informations) {
-  // code here
-  var result = {}
-  if (informations.length === 0) return 'Maaf tidak ada pemenangnya'
+  // Create object result to accomodate the winner
+  let result = {}
+  // Return message if there is no input data
+  if (informations.length === 0) {
+    return 'Maaf tidak ada pemenangnya'
+  }
+  // Do looping to check the player data
   for (let i = 0; i < informations[0].length; i++) {
+    // Do the second looping to check the attributes of 'fun' in the rows for each person
     for (let j = 1; j < informations.length; j++) {
       if (informations[j][i] === 'fun') {
+        // If there is no key in the object, create new key and assign 1 for the value
         if (!result[informations[0][i]]) {
           result[informations[0][i]] = 1
-        } else {
+        } else { // If there is already the same key in the object, increment the value by 1
           result[informations[0][i]]++
         }
       }
     }
   }
-  if (Object.keys(result).length === 0) return 'Maaf tidak ada pemenangnya'
-  else {
-    var maxName = ''
-    for (var name in result) {
-      if (maxName === '') {
-        maxName = name
-      } else if (result[name] > result[maxName])maxName = name
+  // Check the winner -> if the length of the array keys in the object is 0 -> no winner
+  if (Object.keys(result).length === 0) {
+    return 'Maaf tidak ada pemenangnya'
+  } else {
+    let winner = ''
+    // Using for-in loop to check the value in each keys in the object -> find the winner
+    for (let name in result) {
+      if (winner === '') {
+        winner = name
+      } else if (result[name] > result[winner]) {
+        winner = name
+      }
     }
-    return maxName
+    return `pemenangnya adalah ${winner}`
   }
 }
 
