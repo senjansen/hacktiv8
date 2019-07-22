@@ -36,8 +36,7 @@ function tukarGanjil (str) {
           newString += upperCase[j]
           isSymbol = false
           break
-        }
-        if (str[i] === upperCase[j]) {
+        } else if (str[i] === upperCase[j]) {
           newString += lowerCase[j]
           isSymbol = false
           break
