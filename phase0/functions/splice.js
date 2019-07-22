@@ -21,7 +21,6 @@ function splice (arr, start, remove, ...rest) {
       }
     }
   }
-
   return newArr
 }
 
