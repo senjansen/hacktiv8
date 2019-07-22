@@ -2,122 +2,58 @@
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
-  ///////////////////
-  richestGroupDynamic
-  ///////////////////
-  Function richestGroupDynamic akan menentukkan siapa yang paling kaya dalam suatu grup.
-  Function akan menerima 1 parameter yaitu:
-    - groups adalah array yang berisi kumpulan data vote, tipe datanya array.
-  Function ini akan mengembalikkan nilai string.
+==========
+rememberMe
+==========
+[INSTRUCTIONS]
+rememberMe adalah sebuah fungsi yang akan menerima parameter dengan tipe data array
+kemudian mengembalikan nilai string.
 
-  ----------
-  EXAMPLE 1:
-  ----------
-  [INPUT]
-    var groups = [
-      ['A', 'B', 'C'],
-      ['A', 'A', 'D', 'D', 'D']
-    ]
-  [PROCESS]
-  Pada array ['A', 'B', 'C'] tidak ada yang unggul.
-  Pada array ['A', 'A', 'D', 'D', 'D'] D unggul.
-  [OUTPUT]
-    [ 'D' ]
-  ----------
-  EXAMPLE 2:
-  ----------
-  [INPUT]
-    var groups = [
-      ['Z', 'Z'],
-      ['B']
-    ]
-  [PROCESS]
-  Pada array ['Z', 'Z'] Z unggul.
-  Pada array ['B'] B unggul.
-  [OUTPUT]
-    [ 'Z', 'B' ]
-  [RULES]
-    1. Dilarang menggunakan built in function apapun kecuali .push(), .unshift().
+[EXAMPLE]
+INPUT: ['re', 'em', 'b', 'erm', 'em']
+PROCESS:
+  're' diambil untuk melengkapi rememberme => memberme -> 're'
+  'em' diambil untuk melengkapi memberme => mberme -> 'me'
+  'b' diambil untuk melengkapi mberme => merme -> 'mber'
+  'erm' diambil untuk melengkapi merme => me -> 'mer'
+  'em' diambil untuk melengkapi me => true -> 'me'
+OUTPUT: completed
+
+INPUT: ['rembrm']
+PROCESS:
+  'rembr' diambil untuk melengkapi rememberme => ememe
+OUTPUT: ememe
+
+[RULES]
+  1. hanya boleh menggunakan built in function .push(), .unshift()
+  2. kata yang dicari adalah rememberme
 */
 
-function richestGroupDynamic (groups) {
+function rememberMe (lyrics) {
+  // Create new array to accomodate the taken alphabet
   let result = []
-  // First loop to check each array inside multidimensional array
-  for (let i = 0; i < groups.length; i++) {
-    let totalVotes = []
-    let counter = 0
-    let name = []
-    let mostName = ''
-    let mostVotes = 0
-    let status = false
-    // Sort each array in multidimensional array
-    groups[i] = sorting(groups[i])
-    // Define the first person in array
-    name.push(groups[i][0])
-    name.push(1)
-    totalVotes.push(name)
-    // 2nd loop : Check the next persons in the selected array
-    for (let j = 1; j < groups[i].length; j++) {
-      if (groups[i][j] === groups[i][j - 1]) {
-        totalVotes[counter][1] += 1
-      } else {
-        name = []
-        name.push(groups[i][j])
-        name.push(1)
-        totalVotes.push(name)
-        counter++
-      }
-    }
-    // 3rd loop : Check the most riches person in the selected array
-    for (let k = 0; k < totalVotes.length; k++) {
-      if (totalVotes[k][1] > mostVotes) {
-        mostVotes = totalVotes[k][1]
-        mostName = totalVotes[k][0]
-        status = true
-      } else if (totalVotes[k][1] === mostVotes) {
-        status = false
-      }
-    }
-    // Add the most riches person in each array to result array
-    if (status) {
-      result.push(mostName)
-    }
-  }
-  return result
-}
-// Create function to sort an array input
-function sorting (arr) {
-  let arrLength = arr.length
+  let word = ['r', 'e', 'm', 'e', 'm', 'b', 'e', 'r', 'm', 'e']
 
-  for (let i = 0; i < arrLength; i++) {
-    for (let j = 0; j < arrLength; j++) {
-      if (arr[j] > arr[j + 1]) {
-        let temp = arr[j]
-        arr[j] = arr[j + 1]
-        arr[j + 1] = temp
+  // First loop to check each element in lyrics array
+  for (let i = 0; i < lyrics.length; i++) {
+    // Second loop to remove the alphabet in the word array using lyrics element
+    for (let j = 0; j < lyrics[i].length; j++) {
+      // Third loop to check the remaining element in word array
+      for (let k = 0; k < word.length; k++) {
+        if (lyrics[i][j] === word[k]) {
+          result.push(word[k])
+        }
       }
     }
   }
-  return arr
+  // If all the alphabet is already empty, return true. If not, return the remaining word
+  if (word.length === 0) {
+    return `completed`
+  } else {
+    return result.join('')
+  }
 }
 
-console.log(richestGroupDynamic([
-  ['A', 'B', 'C'],
-  ['A', 'A', 'D', 'D', 'D']
-]))
-// [ 'D' ]
-
-console.log(richestGroupDynamic([
-  ['A', 'A'],
-  ['B']
-]))
-// [ 'A', 'B' ]
-
-console.log(richestGroupDynamic([
-  ['Z', 'Z'],
-  ['B', 'X']
-]))
-// [ 'Z' ]
-
-console.log(richestGroupDynamic([]))
-// []
+console.log(rememberMe(['re', 'em', 'b', 'erm', 'em'])) // completed
+console.log(rememberMe(['rembr'])) // ememe
+console.log(rememberMe(['zoqoqo', 'zeieie', 'azzreqwm', 'fdasb', 'ravae', 'rera', 'mmmmm'])) // completed
