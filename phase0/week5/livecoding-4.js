@@ -46,7 +46,7 @@ function rememberMe (lyrics) {
       }
     }
   }
-  // If all the alphabet is already empty, return true. If not, return the remaining word
+  // If all the alphabet is already empty, return 'completed'. If not, return the remaining word
   if (word.length === 0) {
     return `completed`
   } else {
