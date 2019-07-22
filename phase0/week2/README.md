@@ -90,4 +90,4 @@ It is time for us to go into the discussion of how the flow and algorithms are v
 
 ### Task:
 -  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
--  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week2/README.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week2/README.md)
