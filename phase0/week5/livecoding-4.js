@@ -30,8 +30,7 @@ OUTPUT: ememe
 */
 
 function rememberMe (lyrics) {
-  // Create new array to accomodate the taken alphabet
-  let result = []
+  // Create new array for rememberme
   let word = ['r', 'e', 'm', 'e', 'm', 'b', 'e', 'r', 'm', 'e']
 
   // First loop to check each element in lyrics array
@@ -41,16 +40,17 @@ function rememberMe (lyrics) {
       // Third loop to check the remaining element in word array
       for (let k = 0; k < word.length; k++) {
         if (lyrics[i][j] === word[k]) {
-          result.push(word[k])
+          word = splice(word, k, 1)
+          break
         }
       }
     }
   }
-  // If all the alphabet is already empty, return 'completed'. If not, return the remaining word
+  // If all the alphabet is already empty, return 'completed'
   if (word.length === 0) {
     return `completed`
-  } else {
-    return result.join('')
+  } else { // If not, return the remaining word in a string
+    return join(word)
   }
 }
 
@@ -74,6 +74,15 @@ function splice (arr, start, remove, ...rest) {
     }
   }
   return newArr
+}
+
+function join (arr) {
+  let string = ''
+  for (let i = 0; i < arr.length; i++) {
+    string += arr[i]
+    console.log('string : ' + string)
+  }
+  return string
 }
 
 console.log(rememberMe(['re', 'em', 'b', 'erm', 'em'])) // completed
