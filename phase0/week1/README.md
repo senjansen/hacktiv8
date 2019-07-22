@@ -65,4 +65,4 @@ Creating my personal website using HTML and CSS. And also learn more about CSS b
 ### Task:
 - :anchor:
 [[**Exercise 3**] - Website hosted with Github Pages](https://andreassosilo.github.io)
--  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/edit/master/phase0/week1/README.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week1/README.md)
