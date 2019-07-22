@@ -54,6 +54,28 @@ function rememberMe (lyrics) {
   }
 }
 
+function splice (arr, start, remove, ...rest) {
+  let newArr = []
+  let indexOfNewArr = 0
+  for (let i = 0; i < arr.length; i++) {
+    // Jumping the data that want to be removed
+    if (i >= start && i < start + remove) {
+      continue
+    }
+    // Insert to the array
+    newArr[indexOfNewArr] = arr[i]
+    indexOfNewArr++
+    // If there are any new data that want to be added, insert from index start
+    if (indexOfNewArr === start) {
+      for (let j = 0; j < rest.length; j++) {
+        newArr[indexOfNewArr] = rest[j]
+        indexOfNewArr++
+      }
+    }
+  }
+  return newArr
+}
+
 console.log(rememberMe(['re', 'em', 'b', 'erm', 'em'])) // completed
 console.log(rememberMe(['rembr'])) // ememe
 console.log(rememberMe(['zoqoqo', 'zeieie', 'azzreqwm', 'fdasb', 'ravae', 'rera', 'mmmmm'])) // completed
