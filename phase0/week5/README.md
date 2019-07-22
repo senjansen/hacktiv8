@@ -12,7 +12,16 @@ This week we will practice the concepts of Recursive, Regex, and Data Object typ
 
 ## Monday, 22 July 2019 - Live Coding (Arrays, Looping, & Conditionals)
 
-Tiba saatnya kita melakukan Live Coding yang bertujuan untuk menguji kemampuanmu sesuai dengan yang telah kamu pelajari dan kamu latih di pekan ini. Melalui live coding ini kami akan menilai pengertian kamu selama ini tentang JavaScript, dan tentunya kami akan memberikan feedback agar kamu bisa meningkatkan bagian mana yang masih kurang. Sesi live coding ini, tidak seperti tantangan-tantangan di hari-hari sebelumnya. **Kamu tidak bisa mengulang atau memperbaiki apa yang telah kamu kerjakan di sesi live coding.** Sesi live coding tidak dibuat untuk membuatmu gagal, namun untuk memastikan apakah kamu telah terlatih dengan soal-soal coderbyte sebelumnya. Gagal di sesi live coding tidak mutlak membuatmu gagal di Phase 0, namun akan mempengaruhi keputusan instruktur untuk bisa melanjutkanmu ke Phase 1.
+### Task:
+Instruction was give in Slack channel and we were given 1 hour to solve the problem.
+- :anchor:
+[[**Live Coding Anchor 1**] eMoney Split](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-1.js)
+- :anchor:
+[[**Live Coding Anchor 2**] War of Fun](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-2.js)
+- :anchor:
+[[**Live Coding Anchor 3**] Lotus Realms](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-3.js)
+- :rocket:
+[[**Live Coding Rocket**] Remember Me](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/livecoding-4.js)
 
 ## Tuesday, 23 July 2019 - Modularizing Code using Functions & Recursive Functions
 
