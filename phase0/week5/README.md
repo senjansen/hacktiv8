@@ -27,7 +27,7 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal Rekursif](/modules/js-function-recursive.md)
+[Learn Recursion](/modules/js-function-recursive.md)
 
 ### Task:
 - :anchor: [[**Exercise 1**] Most Frequent Largest Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-1.js)
@@ -36,12 +36,11 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 - :anchor: [[**Exercise 4**] Total Digit Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-4.js)
 - :anchor: [[**Exercise 5**] Kali Terus Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-5.js)
 
-
 ## Wednesday, 24 July 2019 - Git Branch
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Cara Submit menggunakan Git Branch (Untuk Exercises Hari Rabu)](/modules/submitting-on-a-new-branch.md)
+[How to Submit Using Git Branch](/modules/submitting-on-a-new-branch.md)
 
 ### Task:
 - :anchor: [[**Exercise 6**] Damage Calculation](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-6.js)
@@ -51,18 +50,19 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 
 ### Material & Reference:
 - :notebook_with_decorative_cover:
-[Mengenal Regular Expressions](/modules/regular-expressions.md)
+[Learn Regular Expressions](/modules/regular-expressions.md)
 
 ### Task:
 - :anchor:
-[[**Exercise 8**] Hapus Simbol](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-8.js)
+[[**Exercise 8**] Delete Symbol (Regex)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-8.js)
 - :anchor:
-[[**Exercise 9**] Cari Pelaku](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
+[[**Exercise 9**] Find The Perpretator (Regex)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-9.js)
 
 ## Friday, 26 July 2019 - Simulation Final Live Code
 Lakukan yang terbaik, mulailah beradaptasi dengan suasana live code agar lebih tenang. Usahakan kerjakan dengan hasil sendiri, masih ada kesempatan untuk tanya jawab di minggu berikutnya
 
 ## Saturday, 27 July 2019 & Sunday, 28 July 2019
 
-- [Refleksi kegiatan pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/reflection.md)
-- [Blogging teknikal terkait skill pekan ini](https://github.com/hacktiv8/phase-0-activities/blob/master/modules/blog.md)
+### Task:
+-  [Reflection on this week's activities](https://github.com/andreassosilo/phase-0-activities/blob/master/modules/reflection.md)
+-  [Create Technical Blogging](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/README.md)
