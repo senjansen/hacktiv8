@@ -1,4 +1,4 @@
-// Live Coding Week 4 - Question 1
+// Live Coding Week 5 - Question 1
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
@@ -51,23 +51,48 @@ ENDFUNCTION
 ================================================================
 */
 
-function sumTheNumber (stringNumber) {
-  let sum = 0
-  // Check the index of each string Number and sum the value
-  for (let i = 0; i < stringNumber.length; i++) {
-    let value = parseInt(stringNumber[i])
-    if (i % 2 !== 0) {
-      sum += value * 2
-    } else {
-      sum += value
-    }
+/*
+===========
+eMoneySplit
+===========
+[INSTRUCTIONS]
+eMoneySplit adalah sebuah fungsi yang menerima parameter berupa string
+dan akan mengembalikkan nilai string yang merupakan jumlah terbanyak dan terdikit.
+[EXAMPLE]
+INPUT: "bagus:200000,ali:20000,bagas:300000,andre:50000"
+OUTPUT: terbanyak adalah bagas dan terdikit adalah andre
+[NOTES]
+1. Apabila tidak ada data tampilkan "tidak ada catatan eMoney"
+[RULES]
+1. WAJIB menggunakan algoritma/pseudocode atau -50 poin
+*/
+
+// MAAF YA PSEUDOCODE BELUM NGERJAIN GAK ADA WAKTU!!!
+function eMoneySplit (stringData) {
+  // code below here
+  if (stringData === '') return 'tidak ada catatan EMoney'
+  var splittedComa = stringData.split(',')
+  var name = []
+  var price = []
+  // console.log(splittedComa);
+  for (let i = 0; i < splittedComa.length; i++) {
+    name.push(splittedComa[i].split(':')[0])
+    price.push(splittedComa[i].split(':')[1])
   }
-  return sum
+  // console.log(name);
+  // console.log(price);
+  var maxIndex = 0
+  var minIndex = 0
+  for (let i = 0; i < price.length; i++) {
+    if (parseInt(price[i]) > parseInt(price[maxIndex]))maxIndex = i
+    if (parseInt(price[i]) < parseInt(price[minIndex]))minIndex = i
+  }
+  return 'terbanyak adalah ' + name[maxIndex] + ' dan terdikit adalah ' + name[minIndex]
 }
 
-// console.time('Performance Test')
-console.log(sumTheNumber('123456')) // 33
-// console.timeEnd('Performance Test')
-console.log(sumTheNumber('341231')) // 21
-console.log(sumTheNumber('1')) // 1
-console.log(sumTheNumber('01')) // 2
+console.log(eMoneySplit('bagus:200000,ali:20000,bagas:300000,andre:50000'))
+// terbanyak adalah bagas dan terdikit adalah andre
+console.log(eMoneySplit('andre:50000'))
+// terbanyak adalah andre dan terdikit adalah andre
+console.log(eMoneySplit(''))
+// tidak ada catatan eMoney

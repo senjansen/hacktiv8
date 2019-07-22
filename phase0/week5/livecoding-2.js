@@ -1,4 +1,4 @@
-// Live Coding Week 4 - Question 2
+// Live Coding Week 5 - Question 2
 // Andreas Sosilo - Hacktiv8 Batch 34 - Humble Fox
 
 /*
@@ -35,71 +35,81 @@
     1. Dilarang menggunakan built in function apapun kecuali .push(), .pop(), .shift() dan .unshift()
 */
 
-function americanGotTalent (votes) {
-  let totalVotes = []
-  let participants = []
-  let counter = 0
-  let mostName = ''
-  let mostVotes = 0
-  let status = false
+/*
+========
+warOfFun
+========
+[INSTRUCTIONS]
+warOfFun adalah sebuat fungsi yang menerima parameter berupa string dan
+akan mengembalikkan nilai string yang merupakan pemenang perlombaan.
+[EXAMPLE]
+INPUT: [
+  ['andre', 'toni', 'toti'],
+  ['risk', 'fun', 'go'],
+  ['humble', 'psyhco', 'strong']
+]
+PROCESS:
+1. array[0] akan berisi nama-nama pemain
+2. array-aray pada indeks berikutnya akan berisi attribut-attribut yang dimiliki oleh setiap pemain sesuai dengan indeksnya
+3. pada array[1] andre tidak memiliki fun, toni memiliki 1 fun, dan toti tidak memiliki fun
+4. pada array[2] andre tidak memiliki fun, toni tidak memiliki fun, dan toti tidak memiliki fun.
+5. total andre tidak memiliki fun, toni memiliki 1 fun, dan toti tidak memiliki fun, sehingga pemenangnya adalah toni.
+OUTPUT: pemenangnya adalah toni
+[NOTES]
+  1. Apabila tidak ada pemenang tampilkan "mohon maaf tidak ada pemenangnya"
+  2. Asumsi tidak akan ada yang seri tapi tidak selalu ada pemenangnya
+[RULES]
+  1. Dilarang menggunakan built in function .sort()
+*/
 
-  // Sort input array
-  votes = sorting(votes)
-  // Define the first participant
-  participants.push(votes[0]) // ['Arby']
-  participants.push(1) // ['Arby', 1]
-  totalVotes.push(participants) // [['Arby', 1]]
-  // Check the next participants
-  for (let i = 1; i < votes.length; i++) {
-    if (votes[i] === votes[i - 1]) {
-      totalVotes[counter][1] += 1
-    } else {
-      participants = []
-      participants.push(votes[i])
-      participants.push(1)
-      totalVotes.push(participants)
-      counter++
-    }
-    // console.log(`i: ${i} and totalVotes: ${totalVotes}`);
-    // console.log(totalVotes);
-    // [['Arby', 1], ['Darren McFlurry', 1], ['Lee Min Ho', 2]]
-  }
-  // Check the winner's name & votes
-  for (let j = 0; j < totalVotes.length; j++) {
-    if (totalVotes[j][1] > mostVotes) {
-      mostVotes = totalVotes[j][1]
-      mostName = totalVotes[j][0]
-      status = true
-    } else if (totalVotes[j][1] === mostVotes) {
-      status = false
-    }
-  }
-  // Return message
-  if (status) {
-    return `Selamat juaranya ${mostName}, dengan total votes yang diterima ${mostVotes}`
-  } else {
-    return 'Mohon maaf juara tidak bisa ditentukan dalam minggu ini'
-  }
-}
-// Create function to sort an array input
-function sorting (arr) {
-  let arrLength = arr.length
-
-  for (let i = 0; i < arrLength; i++) {
-    for (let j = 0; j < arrLength; j++) {
-      if (arr[j] > arr[j + 1]) {
-        let temp = arr[j]
-        arr[j] = arr[j + 1]
-        arr[j + 1] = temp
+function warOfFun (informations) {
+  // code here
+  var result = {}
+  if (informations.length === 0) return 'Maaf tidak ada pemenangnya'
+  for (let i = 0; i < informations[0].length; i++) {
+    for (let j = 1; j < informations.length; j++) {
+      if (informations[j][i] === 'fun') {
+        if (!result[informations[0][i]]) {
+          result[informations[0][i]] = 1
+        } else {
+          result[informations[0][i]]++
+        }
       }
     }
   }
-  return arr
+  if (Object.keys(result).length === 0) return 'Maaf tidak ada pemenangnya'
+  else {
+    var maxName = ''
+    for (var name in result) {
+      if (maxName === '') {
+        maxName = name
+      } else if (result[name] > result[maxName])maxName = name
+    }
+    return maxName
+  }
 }
 
-console.log(americanGotTalent(['Lee Min Ho', 'Arby', 'Darren McFlurry', 'Lee Min Ho']))
-// Selamat juaranya adalah Lee Min Ho, dengan total votes yang diterima 2
-console.log(americanGotTalent(['Lee Min Ho', 'Arby', 'Arby', 'Lee Min Ho']))
-// Mohon maaf juara tidak bisa ditentukkan dalam minggu ini
-console.log(americanGotTalent(['Lee Min Ho', 'Arby', 'Arby']))
-// Selamat juaranya adalah Arby, dengan total votes yang diterima 2
+console.log(warOfFun([
+  ['andre', 'toni', 'toti'],
+  ['risk', 'fun', 'go'],
+  ['humble', 'psyhco', 'strong']
+]))
+// pemenangnya adalah toni
+
+console.log(warOfFun([
+  ['andre', 'toni', 'toti', 'tito'],
+  ['fun', 'fun', 'fun'],
+  ['fun', 'fun'],
+  ['nonfun', 'fun', 'fun', 'fun']
+]))
+// pemenangnya adalah toni
+
+console.log(warOfFun([
+  ['andre', 'toni'],
+  ['risk', 'go'],
+  ['humble', 'strong']
+]))
+// mohon maaf tidak ada pemenangnya
+
+console.log(warOfFun([]))
+// mohon maaf tidak ada pemenangnya
