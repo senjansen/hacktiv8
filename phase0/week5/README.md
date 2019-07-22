@@ -32,9 +32,9 @@ Instruction was give in Slack channel and we were given 1 hour to solve the prob
 ### Task:
 - :anchor: [[**Exercise 1**] Most Frequent Largest Numbers](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-1.js)
 - :anchor: [[**Exercise 2**] Password Generator](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-2.js)
-- :anchor: [[**Exercise 3**] Makan Terus Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-3.js)
-- :anchor: [[**Exercise 4**] Total Digit Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-4.js)
-- :anchor: [[**Exercise 5**] Kali Terus Rekursif](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-5.js)
+- :anchor: [[**Exercise 3**] All You Can Eat (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-3.js)
+- :anchor: [[**Exercise 4**] Total Digit (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-4.js)
+- :anchor: [[**Exercise 5**] Multiplication (Recursion)](https://github.com/andreassosilo/hacktiv8/blob/master/phase0/week5/exercise-5.js)
 
 ## Wednesday, 24 July 2019 - Git Branch
 
