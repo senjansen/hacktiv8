@@ -16,6 +16,7 @@
 */
 
 function medianGenap (arr) {
+  // Create evenIndex array to accomodate even numbers
   let evenIndex = []
   let newArr = []
   // Find the index of even numbers
